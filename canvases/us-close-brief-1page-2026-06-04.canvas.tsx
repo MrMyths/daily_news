@@ -27,23 +27,23 @@ export default function USCloseBriefOnePage20260604() {
   return (
     <main className="sheet">
       <style>{`
-        .sheet { width: 1120px; min-height: 1580px; margin: 0 auto; padding: 34px; color: #14213d; font-family: Inter, "Noto Sans TC", "Microsoft JhengHei", sans-serif; background: #f7f9fc; }
-        .hero { border-radius: 26px; padding: 28px; color: white; background: linear-gradient(135deg, #0f2a43, #2a6f97); }
+        .sheet { width: 1500px; min-height: 980px; margin: 0 auto; padding: 24px; color: #14213d; font-family: Inter, "Noto Sans TC", "Microsoft JhengHei", sans-serif; background: #f7f9fc; }
+        .hero { border-radius: 24px; padding: 22px; color: white; background: linear-gradient(135deg, #0f2a43, #2a6f97); }
         .eyebrow { margin: 0 0 8px; font-size: 12px; letter-spacing: .16em; text-transform: uppercase; opacity: .76; }
-        h1 { margin: 0; font-size: 34px; line-height: 1.14; }
-        h2 { margin: 18px 0 10px; font-size: 18px; color: #0f2a43; }
-        p, li, td, th { font-size: 14px; line-height: 1.55; }
-        .grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 16px; margin-top: 16px; }
-        .card { background: white; border: 1px solid #e6e8ef; border-radius: 18px; padding: 16px; box-shadow: 0 8px 20px rgba(20,30,55,.05); }
+        h1 { margin: 0; font-size: 32px; line-height: 1.12; }
+        h2 { margin: 12px 0 8px; font-size: 17px; color: #0f2a43; }
+        p, li, td, th { font-size: 13px; line-height: 1.42; }
+        .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 12px; }
+        .card { background: white; border: 1px solid #e6e8ef; border-radius: 16px; padding: 12px; box-shadow: 0 8px 20px rgba(20,30,55,.05); }
         table { width: 100%; border-collapse: collapse; background: white; overflow: hidden; border-radius: 14px; }
-        th { background: #e9f1f7; color: #0f2a43; text-align: left; padding: 9px; }
-        td { border-top: 1px solid #edf0f5; padding: 9px; vertical-align: top; }
+        th { background: #e9f1f7; color: #0f2a43; text-align: left; padding: 7px; }
+        td { border-top: 1px solid #edf0f5; padding: 7px; vertical-align: top; }
         .pill { display: inline-block; padding: 4px 9px; border-radius: 999px; font-size: 12px; font-weight: 700; background: #e8f6ee; color: #147a3f; margin-right: 5px; }
         .bad { background: #fdecec; color: #b42318; }
         .neutral { background: #edf2f7; color: #35506b; }
-        .warning { background: #fff8e8; border-left: 5px solid #f59f00; border-radius: 12px; padding: 10px 12px; }
+        .warning { background: #fff8e8; border-left: 5px solid #f59f00; border-radius: 12px; padding: 8px 10px; }
         .sources a { color: #1b5e89; word-break: break-word; }
-        .disclaimer { background: #172033; color: white; border-radius: 16px; padding: 14px; margin-top: 16px; }
+        .disclaimer { background: #172033; color: white; border-radius: 16px; padding: 11px; margin-top: 12px; }
       `}</style>
 
       <section className="hero">

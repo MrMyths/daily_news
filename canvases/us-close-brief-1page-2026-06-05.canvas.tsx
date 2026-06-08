@@ -13,12 +13,27 @@ const bullets = [
 ];
 
 const sources = [
-  ["Reuters/SRN", "https://srnnews.com/nasdaq-sp-futures-slip-as-semiconductors-drag-payrolls-in-focus/"],
-  ["CNBC", "https://www.cnbc.com/2026/06/04/stock-market-today-live-updates.html"],
+  [
+    "Reuters/SRN",
+    "https://srnnews.com/nasdaq-sp-futures-slip-as-semiconductors-drag-payrolls-in-focus/",
+  ],
+  [
+    "CNBC",
+    "https://www.cnbc.com/2026/06/04/stock-market-today-live-updates.html",
+  ],
   ["BLS", "https://www.bls.gov/news.release/archives/empsit_06052026.htm"],
-  ["FedWatch/Reuters", "https://finance.yahoo.com/economy/policy/articles/us-rate-futures-raise-rate-125419828.html"],
-  ["Advisor Perspectives", "https://www.advisorperspectives.com/dshort/updates/2026/06/05/treasury-yields-snapshot-june-5-2026"],
-  ["Ameriprise", "https://cdn.ameriprisecontent.com/cds/alwp/marketperspectives/aftertheclose-06-05-2026.pdf"],
+  [
+    "FedWatch/Reuters",
+    "https://finance.yahoo.com/economy/policy/articles/us-rate-futures-raise-rate-125419828.html",
+  ],
+  [
+    "Advisor Perspectives",
+    "https://www.advisorperspectives.com/dshort/updates/2026/06/05/treasury-yields-snapshot-june-5-2026",
+  ],
+  [
+    "Ameriprise",
+    "https://cdn.ameriprisecontent.com/cds/alwp/marketperspectives/aftertheclose-06-05-2026.pdf",
+  ],
   ["Binance Vision", "https://data.binance.vision/"],
 ];
 
@@ -121,7 +136,9 @@ export default function USCloseBriefOnePage20260605() {
               <a href={url}>{name}</a>
             </React.Fragment>
           ))}
-          。指數收市採 Reuters/CNBC/Yahoo 一致口徑；板塊採 Yahoo ETF proxy，並以 Ameriprise/FactSet 作交叉確認；Crypto 採 Binance Vision 2026-06-05 20:00 UTC 1m close。
+          。指數收市採 Reuters/CNBC/Yahoo 一致口徑；板塊採 Yahoo ETF proxy，並以
+          Ameriprise/FactSet 作交叉確認；Crypto 採 Binance Vision 2026-06-05
+          20:00 UTC 1m close。
         </p>
         <p className="small">{disclaimer}</p>
       </section>

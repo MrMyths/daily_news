@@ -76,17 +76,52 @@ const indexRows = [
 ];
 
 const sectorRows = [
-  ["Consumer Staples / XLP", "+1.71%", "綠燈", "資金轉入防守消費；CNBC 指 staples 係當日最強板塊。"],
+  [
+    "Consumer Staples / XLP",
+    "+1.71%",
+    "綠燈",
+    "資金轉入防守消費；CNBC 指 staples 係當日最強板塊。",
+  ],
   ["Utilities / XLU", "+0.93%", "綠燈", "防守股有承接，即使債息升都跑贏大市。"],
-  ["Real Estate / XLRE", "+0.68%", "中性偏好", "短線防守輪動支持，惟高息環境仍限制估值。"],
-  ["Health Care / XLV", "+0.61%", "中性偏好", "Eli Lilly 等防守增長股撐住板塊。"],
+  [
+    "Real Estate / XLRE",
+    "+0.68%",
+    "中性偏好",
+    "短線防守輪動支持，惟高息環境仍限制估值。",
+  ],
+  [
+    "Health Care / XLV",
+    "+0.61%",
+    "中性偏好",
+    "Eli Lilly 等防守增長股撐住板塊。",
+  ],
   ["Financials / XLF", "+0.21%", "中性", "受惠高利率部分抵消風險資產回落。"],
-  ["Industrials / XLI", "-1.12%", "中性偏弱", "跟隨大市回吐，但未見科技式拋售。"],
-  ["Communication Services / XLC", "-1.27%", "紅燈", "Meta、廣告/平台股拖累；GOOGL 跌幅較輕。"],
+  [
+    "Industrials / XLI",
+    "-1.12%",
+    "中性偏弱",
+    "跟隨大市回吐，但未見科技式拋售。",
+  ],
+  [
+    "Communication Services / XLC",
+    "-1.27%",
+    "紅燈",
+    "Meta、廣告/平台股拖累；GOOGL 跌幅較輕。",
+  ],
   ["Energy / XLE", "-1.84%", "紅燈", "WTI 回落至 $90.54，能源股未能成避風港。"],
   ["Materials / XLB", "-1.92%", "紅燈", "美元走強、風險資產降溫壓住商品鏈。"],
-  ["Consumer Discretionary / XLY", "-2.05%", "紅燈", "高 beta 消費受高利率與風險降溫夾擊。"],
-  ["Technology / XLK", "-6.66%", "深紅", "半導體/AI 交易急速去槓桿；Ameriprise 指 S&P Info Tech -5.8%。"],
+  [
+    "Consumer Discretionary / XLY",
+    "-2.05%",
+    "紅燈",
+    "高 beta 消費受高利率與風險降溫夾擊。",
+  ],
+  [
+    "Technology / XLK",
+    "-6.66%",
+    "深紅",
+    "半導體/AI 交易急速去槓桿；Ameriprise 指 S&P Info Tech -5.8%。",
+  ],
 ];
 
 const stockRows = [
@@ -163,11 +198,7 @@ const macroRows = [
     "$90.54，-2.69%",
     "油價回落未能救風險資產，因主線已轉為利率與 AI 估值重估。",
   ],
-  [
-    "Gold",
-    "$4,337.10，-3.10%",
-    "美元與實質利率壓力大過避險需求，金價急跌。",
-  ],
+  ["Gold", "$4,337.10，-3.10%", "美元與實質利率壓力大過避險需求，金價急跌。"],
 ];
 
 const cryptoRows = [
@@ -198,11 +229,23 @@ const notes = [
 ];
 
 const technicalLevels = [
-  ["S&P 500", "7,423-7,319", "FXStreet 指 ES 回到關鍵 weekly decision band；收市在區間內，下一步要睇能否重上 7,423。"],
-  ["S&P 500", "7,300", "多個技術評論視作下一個心理/結構支持；跌穿會令 correction 敘事升級。"],
+  [
+    "S&P 500",
+    "7,423-7,319",
+    "FXStreet 指 ES 回到關鍵 weekly decision band；收市在區間內，下一步要睇能否重上 7,423。",
+  ],
+  [
+    "S&P 500",
+    "7,300",
+    "多個技術評論視作下一個心理/結構支持；跌穿會令 correction 敘事升級。",
+  ],
   ["Nasdaq", "25,700", "今日收市貼近位置；若失守，AI beta 可能繼續被動減倉。"],
   ["VIX", "20 / 25", "20 以上代表風險重新定價；25 以上就要當作更深度去槓桿。"],
-  ["10Y Treasury", "4.55% / 4.67%", "4.55% 附近係今日收市；5 月高位約 4.67%，若再試會壓估值。"],
+  [
+    "10Y Treasury",
+    "4.55% / 4.67%",
+    "4.55% 附近係今日收市；5 月高位約 4.67%，若再試會壓估值。",
+  ],
   ["BTC", "$60,000", "美股收市附近貼近整數關；失守會放大 crypto beta 壓力。"],
 ];
 
@@ -327,7 +370,9 @@ export default function USCloseBrief20260605() {
         <h1>非農太強，AI 半導體急速去槓桿</h1>
         <p className="subtitle">
           6 月 5 日美股三大指數急跌，S&P 500 跌 2.64%、Nasdaq 跌
-          4.18%。表面係科技股 selloff，核心其實係強勁就業數據推高年尾加息機率，令高估值 AI 交易一次過被重新定價。
+          4.18%。表面係科技股
+          selloff，核心其實係強勁就業數據推高年尾加息機率，令高估值 AI
+          交易一次過被重新定價。
         </p>
         <div className="meta">
           <span className="pill">交易日：{reportDate}</span>
@@ -345,7 +390,8 @@ export default function USCloseBrief20260605() {
             ))}
           </ul>
           <div className="callout">
-            今日結論：唔好急住撈 AI beta。大市由「追突破」切換成「等恐慌釋放 + 睇 CPI/Fed」，S&P 500 要先收復 7,423-7,450，先叫修復返短線結構。
+            今日結論：唔好急住撈 AI beta。大市由「追突破」切換成「等恐慌釋放 +
+            睇 CPI/Fed」，S&P 500 要先收復 7,423-7,450，先叫修復返短線結構。
           </div>
         </Card>
 
@@ -359,10 +405,12 @@ export default function USCloseBrief20260605() {
         <Card title="3｜市場寬度與風險胃納">
           <ul>
             <li>
-              Reuters/SRN 指 NYSE 下跌股對上升股約 3.14:1，Nasdaq 約 3.48:1；即係唔係幾隻 mega-cap 自己跌，而係廣泛 risk-off。
+              Reuters/SRN 指 NYSE 下跌股對上升股約 3.14:1，Nasdaq 約
+              3.48:1；即係唔係幾隻 mega-cap 自己跌，而係廣泛 risk-off。
             </li>
             <li>
-              S&P 500 只錄得 14 隻 52 週新高、3 隻新低；Nasdaq 則 83 隻新高、178 隻新低，科技內部破位更明顯。
+              S&P 500 只錄得 14 隻 52 週新高、3 隻新低；Nasdaq 則 83 隻新高、178
+              隻新低，科技內部破位更明顯。
             </li>
             <li>
               VIX 由 15.40 升到 21.51，波動率一下子由 complacency 轉去警戒區。
@@ -379,7 +427,9 @@ export default function USCloseBrief20260605() {
             rows={sectorRows}
           />
           <p className="small">
-            板塊變動以 Yahoo Finance Select Sector SPDR ETF 收市價計算；Ameriprise FactSet 口徑列 Consumer Staples +1.6%、Info Tech -5.8%，方向一致。
+            板塊變動以 Yahoo Finance Select Sector SPDR ETF
+            收市價計算；Ameriprise FactSet 口徑列 Consumer Staples +1.6%、Info
+            Tech -5.8%，方向一致。
           </p>
         </Card>
 
@@ -387,28 +437,41 @@ export default function USCloseBrief20260605() {
           <h3>壓力因素</h3>
           <ul>
             <li>
-              BLS 非農 +172k，遠高預期，令市場由「等減息」轉向「可能年尾再加息」。
+              BLS 非農
+              +172k，遠高預期，令市場由「等減息」轉向「可能年尾再加息」。
             </li>
             <li>
-              10Y Treasury 升至約 4.54%-4.55%，2Y 升至約 4.17%；估值最長、最 crowded 的 AI/半導體先被沽。
+              10Y Treasury 升至約 4.54%-4.55%，2Y 升至約 4.17%；估值最長、最
+              crowded 的 AI/半導體先被沽。
             </li>
             <li>
-              Broadcom 業績後未有滿足市場對 AI 指引的超高期望，觸發半導體鏈由盈利故事轉為估值壓縮。
+              Broadcom 業績後未有滿足市場對 AI
+              指引的超高期望，觸發半導體鏈由盈利故事轉為估值壓縮。
             </li>
             <li>BTC、ETH、SOL 同步下跌，顯示高 beta 資產一齊去槓桿。</li>
           </ul>
           <h3>支持因素</h3>
           <ul>
-            <li>就業強本身代表經濟未急速轉差，今次更似利率/估值重估，而非 recession panic。</li>
-            <li>Consumer Staples、Utilities、Health Care 仍有承接，資金仍在場內找避風位置。</li>
-            <li>下週 CPI/PPI/FOMC 前，若數據回落或 Fed 口徑穩定，市場有機會先做 oversold bounce。</li>
+            <li>
+              就業強本身代表經濟未急速轉差，今次更似利率/估值重估，而非
+              recession panic。
+            </li>
+            <li>
+              Consumer Staples、Utilities、Health Care
+              仍有承接，資金仍在場內找避風位置。
+            </li>
+            <li>
+              下週 CPI/PPI/FOMC 前，若數據回落或 Fed 口徑穩定，市場有機會先做
+              oversold bounce。
+            </li>
           </ul>
         </Card>
 
         <Card title="6｜宏觀白話版">
           <DataTable headers={["項目", "數據", "解讀"]} rows={macroRows} />
           <div className="callout">
-            白話講：今日不是「經濟差」跌市，而是「經濟太硬、Fed 可能更硬」跌市。高估值資產最怕的不是壞消息，而是折現率突然抽高。
+            白話講：今日不是「經濟差」跌市，而是「經濟太硬、Fed
+            可能更硬」跌市。高估值資產最怕的不是壞消息，而是折現率突然抽高。
           </div>
         </Card>
 
@@ -425,7 +488,10 @@ export default function USCloseBrief20260605() {
             rows={cryptoRows}
           />
           <p className="small">
-            Crypto 採 Binance Vision public data：2026-06-05 20:00 UTC（美東夏令時間 4:00pm ET）1 分鐘 K 線 close；直接 Binance API 在部分環境可能受地區限制，所以採 Binance Vision。24h 對比以 2026-06-04 20:00 UTC 同口徑 1m close 計算。
+            Crypto 採 Binance Vision public data：2026-06-05 20:00
+            UTC（美東夏令時間 4:00pm ET）1 分鐘 K 線 close；直接 Binance API
+            在部分環境可能受地區限制，所以採 Binance Vision。24h 對比以
+            2026-06-04 20:00 UTC 同口徑 1m close 計算。
           </p>
         </Card>
 
@@ -447,17 +513,23 @@ export default function USCloseBrief20260605() {
         <Card title="11｜操作提示與最終觀點">
           <ul>
             <li>
-              <strong>短線：</strong>唔好用「上星期升市」的倉位去接「今日波動率重估」。等 S&P 500 企回 7,423-7,450 或 VIX 回落，先考慮加 risk。
+              <strong>短線：</strong>
+              唔好用「上星期升市」的倉位去接「今日波動率重估」。等 S&P 500 企回
+              7,423-7,450 或 VIX 回落，先考慮加 risk。
             </li>
             <li>
-              <strong>中線：</strong>AI 主線未必完，但要由 beta trade 轉為 earnings quality trade；能真正上調指引、自由現金流夠強、估值無咁迫的公司優先。
+              <strong>中線：</strong>AI 主線未必完，但要由 beta trade 轉為
+              earnings quality
+              trade；能真正上調指引、自由現金流夠強、估值無咁迫的公司優先。
             </li>
             <li>
-              <strong>風控：</strong>10Y 接近 4.67%、VIX 上 25、BTC 失守 $60k，三個訊號同時出現就要再降槓桿。
+              <strong>風控：</strong>10Y 接近 4.67%、VIX 上 25、BTC 失守
+              $60k，三個訊號同時出現就要再降槓桿。
             </li>
             <li>
               <strong>一句到尾：</strong>
-              今日係牛市中一次夠痛的「估值壓力測試」；未必等於趨勢反轉，但已經足夠提醒市場：高利率環境下，AI 故事要靠業績兌現，唔可以只靠想像力。
+              今日係牛市中一次夠痛的「估值壓力測試」；未必等於趨勢反轉，但已經足夠提醒市場：高利率環境下，AI
+              故事要靠業績兌現，唔可以只靠想像力。
             </li>
           </ul>
         </Card>
@@ -474,16 +546,21 @@ export default function USCloseBrief20260605() {
           <h3>數據差異處理</h3>
           <ul>
             <li>
-              指數收市：Reuters/SRN、CNBC 與 Yahoo Chart 均列 S&P 500 7,383.74、Dow 50,866.78、Nasdaq 25,709.43；本文採一致口徑。
+              指數收市：Reuters/SRN、CNBC 與 Yahoo Chart 均列 S&P 500
+              7,383.74、Dow 50,866.78、Nasdaq 25,709.43；本文採一致口徑。
             </li>
             <li>
-              板塊：表格採 Yahoo Finance ETF proxy 收市價；Ameriprise/FactSet 行業口徑列 Consumer Staples +1.6%、Info Tech -5.8%，與 ETF proxy 方向一致但幅度略有差異。
+              板塊：表格採 Yahoo Finance ETF proxy 收市價；Ameriprise/FactSet
+              行業口徑列 Consumer Staples +1.6%、Info Tech -5.8%，與 ETF proxy
+              方向一致但幅度略有差異。
             </li>
             <li>
-              債息：10Y Yahoo Chart 為 4.536%，Advisor Perspectives 列 10Y 約 4.55%、2Y 4.17%；本文四捨五入並標示來源差異。
+              債息：10Y Yahoo Chart 為 4.536%，Advisor Perspectives 列 10Y 約
+              4.55%、2Y 4.17%；本文四捨五入並標示來源差異。
             </li>
             <li>
-              Crypto：直接 Binance API 可能受地區限制；本文採 Binance Vision public data 20:00 UTC 1m close，並列明時間點。
+              Crypto：直接 Binance API 可能受地區限制；本文採 Binance Vision
+              public data 20:00 UTC 1m close，並列明時間點。
             </li>
           </ul>
           <p>{disclaimer}</p>

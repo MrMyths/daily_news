@@ -76,7 +76,9 @@ export default function USCloseBriefOnePage20260609() {
       `}</style>
       <section className="hero">
         <h1>美股收盤懶人包｜1頁版</h1>
-        <div className="sub">2026-06-09 收市｜科技回吐拖低大盤，舊經濟輪動接力</div>
+        <div className="sub">
+          2026-06-09 收市｜科技回吐拖低大盤，舊經濟輪動接力
+        </div>
       </section>
       <section className="grid">
         <div className="card">
@@ -131,9 +133,10 @@ export default function USCloseBriefOnePage20260609() {
               <a href={url}>{name}</a>
             </React.Fragment>
           ))}
-          。指數收市採 CNBC/AA/Yahoo 一致口徑；板塊採 Yahoo ETF
-          proxy；債息採 MarketScreener/Trading Economics 交叉口徑；油金因合約及時間點有差異，列範圍；
-          Crypto 採 Binance Vision 2026-06-09 20:00 UTC 1m close。
+          。指數收市採 CNBC/AA/Yahoo 一致口徑；板塊採 Yahoo ETF proxy；債息採
+          MarketScreener/Trading Economics
+          交叉口徑；油金因合約及時間點有差異，列範圍； Crypto 採 Binance Vision
+          2026-06-09 20:00 UTC 1m close。
         </p>
         <p className="small">{disclaimer}</p>
       </section>

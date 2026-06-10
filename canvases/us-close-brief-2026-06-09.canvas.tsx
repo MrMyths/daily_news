@@ -134,12 +134,7 @@ const sectorRows = [
     "防守綠",
     "收益型/低 beta 有買盤，反映市場想降低組合波動。",
   ],
-  [
-    "Energy / XLE",
-    "-1.61%",
-    "紅燈",
-    "WTI/Brent 下跌，能源股跟隨油價回吐。",
-  ],
+  ["Energy / XLE", "-1.61%", "紅燈", "WTI/Brent 下跌，能源股跟隨油價回吐。"],
   [
     "Technology / XLK",
     "-1.85%",
@@ -411,9 +406,10 @@ export default function USCloseBrief20260609() {
         <div className="eyebrow">美股收盤懶人包｜完整版</div>
         <h1>科技回吐拖低大盤，舊經濟輪動接力</h1>
         <p className="subtitle">
-          6 月 9 日美股收市 mixed：Nasdaq 跌 0.97%、S&P 500 跌
-          0.26%，但 Dow 升 0.17%。重點不是市場全面 risk-off，而是週一半導體反彈未能延續，
-          資金轉去房屋鏈、防守、醫療與材料；油價回落幫到通脹預期，但 CPI 前仍未可以太放鬆。
+          6 月 9 日美股收市 mixed：Nasdaq 跌 0.97%、S&P 500 跌 0.26%，但 Dow 升
+          0.17%。重點不是市場全面 risk-off，而是週一半導體反彈未能延續，
+          資金轉去房屋鏈、防守、醫療與材料；油價回落幫到通脹預期，但 CPI
+          前仍未可以太放鬆。
         </p>
         <div className="meta">
           <span className="pill">交易日：{reportDate}</span>
@@ -458,8 +454,8 @@ export default function USCloseBrief20260609() {
               crowded tech、buy old economy」的輪動。
             </li>
             <li>
-              Crypto 在美股收市點同步偏弱，BTC/ETH/SOL 較 6/8 4:00pm ET
-              分別跌約 2.1%/1.6%/3.0%，風險 beta 未跟舊經濟輪動。
+              Crypto 在美股收市點同步偏弱，BTC/ETH/SOL 較 6/8 4:00pm ET 分別跌約
+              2.1%/1.6%/3.0%，風險 beta 未跟舊經濟輪動。
             </li>
           </ul>
         </Card>
@@ -470,9 +466,9 @@ export default function USCloseBrief20260609() {
             rows={sectorRows}
           />
           <p className="small">
-            板塊變動以 Yahoo Finance Select Sector SPDR ETF
-            收市價計算；CNBC/AA 行業描述以科技與能源跑輸、材料/消費/地產跑贏為主，
-            ETF proxy 與 GICS 行業口徑可能有幅度差異。
+            板塊變動以 Yahoo Finance Select Sector SPDR ETF 收市價計算；CNBC/AA
+            行業描述以科技與能源跑輸、材料/消費/地產跑贏為主， ETF proxy 與 GICS
+            行業口徑可能有幅度差異。
           </p>
         </Card>
 
@@ -480,16 +476,16 @@ export default function USCloseBrief20260609() {
           <h3>壓力來源</h3>
           <ul>
             <li>
-              半導體週一反彈後無法延續，SMH/SOXX 轉跌，MRVL、ARM、QCOM
-              等高 beta chip names 跌幅較大。
+              半導體週一反彈後無法延續，SMH/SOXX 轉跌，MRVL、ARM、QCOM 等高 beta
+              chip names 跌幅較大。
             </li>
             <li>
-              Apple WWDC 後再跌 3.64%，市場認為 Siri AI
-              更新未即時改變 iPhone 需求/變現故事。
+              Apple WWDC 後再跌 3.64%，市場認為 Siri AI 更新未即時改變 iPhone
+              需求/變現故事。
             </li>
             <li>
-              投資者等 6/10 CPI 與 6/12 SpaceX IPO；OpenAI 亦 confidentially filed
-              IPO，市場擔心 AI 供應與估值測試。
+              投資者等 6/10 CPI 與 6/12 SpaceX IPO；OpenAI 亦 confidentially
+              filed IPO，市場擔心 AI 供應與估值測試。
             </li>
           </ul>
           <h3>支持因素</h3>
@@ -498,11 +494,10 @@ export default function USCloseBrief20260609() {
               油價跌約 3%，暫時降低通脹與 Hormuz supply shock 擔憂，支撐舊經濟。
             </li>
             <li>
-              Existing-home sales +3.2% 至 4.17m，好過預期，帶動房屋鏈與地產板塊。
+              Existing-home sales +3.2% 至
+              4.17m，好過預期，帶動房屋鏈與地產板塊。
             </li>
-            <li>
-              債息由週一高位回落，10Y 約 4.53%，對估值有少少幫助。
-            </li>
+            <li>債息由週一高位回落，10Y 約 4.53%，對估值有少少幫助。</li>
           </ul>
         </Card>
 
@@ -595,7 +590,8 @@ export default function USCloseBrief20260609() {
             </li>
             <li>
               板塊：表格採 Yahoo Finance ETF proxy（XLK/XLE/XLRE
-              等）收市價；新聞來源多用 S&P GICS 行業口徑，方向一致但幅度不一定相同。
+              等）收市價；新聞來源多用 S&P GICS
+              行業口徑，方向一致但幅度不一定相同。
             </li>
             <li>
               宏觀：債息採 MarketScreener/Trading Economics/Yahoo
@@ -603,8 +599,8 @@ export default function USCloseBrief20260609() {
               之間有合約及時間點差異，本文列範圍並說明差異。
             </li>
             <li>
-              FedWatch：Growbeansprout 與 Investing.com 均引 CME FedWatch
-              6/9 顯示 6 月維持 3.50%-3.75% 機率 96.5%，本文採該一致數字。
+              FedWatch：Growbeansprout 與 Investing.com 均引 CME FedWatch 6/9
+              顯示 6 月維持 3.50%-3.75% 機率 96.5%，本文採該一致數字。
             </li>
             <li>
               Crypto：直接 Binance API 可能受地區限制；本文採 Binance Vision

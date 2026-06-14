@@ -629,8 +629,8 @@ export default function USWeeklyBrief20260614() {
           />
           <p className="small">
             Binance direct API 在此環境回 451；本文改用 Binance Vision public
-            data 的 spot 1-minute kline。時間點為 2026-06-12 20:00:00
-            UTC，對比 2026-06-05 同一時間，盡量貼近美股收市 4:00pm ET。
+            data 的 spot 1-minute kline。時間點為 2026-06-12 20:00:00 UTC，對比
+            2026-06-05 同一時間，盡量貼近美股收市 4:00pm ET。
           </p>
         </Card>
 
@@ -703,11 +703,12 @@ export default function USWeeklyBrief20260614() {
             </li>
             <li>
               油價：Investopedia 列 WTI 4 p.m. ET 約 $84.35、Brent settlement
-              $87.33；Morningstar 週度口徑 WTI $84.39，差異來自合約/時間點，本文註明時間。
+              $87.33；Morningstar 週度口徑 WTI
+              $84.39，差異來自合約/時間點，本文註明時間。
             </li>
             <li>
-              VIX：FRED/Cboe 在生成時可靠更新至 6/11 close 19.44，未見 6/12
-              官方 close，故報告寫「最新可靠 close」而非估算 6/12。
+              VIX：FRED/Cboe 在生成時可靠更新至 6/11 close 19.44，未見 6/12 官方
+              close，故報告寫「最新可靠 close」而非估算 6/12。
             </li>
             <li>
               ETF flows：即時週度 ETF flows 暫無可靠數據；本報使用 Morningstar

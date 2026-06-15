@@ -437,10 +437,9 @@ export default function USCloseBrief20260612() {
         <div className="eyebrow">美股收盤懶人包｜完整版</div>
         <h1>SpaceX 首日大升，油價回落撐住美股續反彈</h1>
         <p className="subtitle">
-          6 月 12 日美股延續 risk-on：S&P 500 升 0.50%、Dow 升
-          353.51 點、Nasdaq 升 0.31%。SpaceX IPO 首日收高約 19%，Iran
-          潛在協議令油價再跌，VIX 跌至 17.68；但 AAPL、AMZN
-          逆市跌，提醒升市質素仍要看下週 FOMC 與板塊輪動。
+          6 月 12 日美股延續 risk-on：S&P 500 升 0.50%、Dow 升 353.51 點、Nasdaq
+          升 0.31%。SpaceX IPO 首日收高約 19%，Iran 潛在協議令油價再跌，VIX 跌至
+          17.68；但 AAPL、AMZN 逆市跌，提醒升市質素仍要看下週 FOMC 與板塊輪動。
         </p>
         <div className="meta">
           <span className="pill">交易日：{reportDate}</span>
@@ -461,8 +460,8 @@ export default function USCloseBrief20260612() {
           </ul>
           <div className="callout">
             今日結論：升市不是單靠 mega-cap tech，而是由油價回落、IPO
-            風險胃納和週期板塊補漲一齊推動。短線可保持 risk-on，但 FOMC
-            前仍要用 VIX、10Y 和油價做風控線。
+            風險胃納和週期板塊補漲一齊推動。短線可保持 risk-on，但 FOMC 前仍要用
+            VIX、10Y 和油價做風控線。
           </div>
         </Card>
 
@@ -476,14 +475,16 @@ export default function USCloseBrief20260612() {
         <Card title="3｜市場寬度與風險胃納">
           <ul>
             <li>
-              Yahoo 指 Russell 2000 +0.79%，小型股跑贏 Nasdaq，顯示資金願意買入更廣泛 beta。
+              Yahoo 指 Russell 2000 +0.79%，小型股跑贏
+              Nasdaq，顯示資金願意買入更廣泛 beta。
             </li>
             <li>
-              VIX 由 19.44 跌至 17.68，回到較平靜水平；但下週 FOMC
-              與 Iran headline 仍可能令短端波動反覆。
+              VIX 由 19.44 跌至 17.68，回到較平靜水平；但下週 FOMC 與 Iran
+              headline 仍可能令短端波動反覆。
             </li>
             <li>
-              板塊上 XLB、XLF、XLU、XLRE 都跑贏 S&P 500，升市有擴散，不只是 AI 股。
+              板塊上 XLB、XLF、XLU、XLRE 都跑贏 S&P 500，升市有擴散，不只是 AI
+              股。
             </li>
             <li>
               Crypto 未同步爆上：BTC 只微升 0.04%，ETH/SOL
@@ -498,8 +499,8 @@ export default function USCloseBrief20260612() {
             rows={sectorRows}
           />
           <p className="small">
-            板塊表採 Yahoo Finance / StockAnalysis / Exa market pages
-            的 Select Sector ETF proxy；ETF 與 GICS 行業口徑可能有差異。
+            板塊表採 Yahoo Finance / StockAnalysis / Exa market pages 的 Select
+            Sector ETF proxy；ETF 與 GICS 行業口徑可能有差異。
           </p>
         </Card>
 
@@ -515,18 +516,14 @@ export default function USCloseBrief20260612() {
               協議希望令能源通脹壓力短線降溫。
             </li>
             <li>
-              University of Michigan preliminary sentiment 升至 48.9，1
-              年和 5 年通脹預期都回落，幫助市場淡化最壞情境。
+              University of Michigan preliminary sentiment 升至 48.9，1 年和 5
+              年通脹預期都回落，幫助市場淡化最壞情境。
             </li>
-            <li>
-              金融、材料、地產與小型股跟升，代表資金不是只集中在七巨頭。
-            </li>
+            <li>金融、材料、地產與小型股跟升，代表資金不是只集中在七巨頭。</li>
           </ul>
           <h3>仍然要小心</h3>
           <ul>
-            <li>
-              CPI/PPI 仍熱，Fed 下週很難因一日油價回落就轉鴿。
-            </li>
+            <li>CPI/PPI 仍熱，Fed 下週很難因一日油價回落就轉鴿。</li>
             <li>
               AAPL、AMZN、META 逆市或偏弱，Nasdaq 未能大幅跑贏，科技內部有分化。
             </li>
@@ -540,7 +537,8 @@ export default function USCloseBrief20260612() {
           <DataTable headers={["項目", "數據", "解讀"]} rows={macroRows} />
           <div className="callout">
             白話講：市場今日交易的是「油價和戰爭風險有機會落返嚟」。但通脹本身仍高，
-            Fed 亦未有理由即刻放鬆，所以升市最好配合風控，不宜當作所有宏觀問題已解決。
+            Fed
+            亦未有理由即刻放鬆，所以升市最好配合風控，不宜當作所有宏觀問題已解決。
           </div>
         </Card>
 
@@ -559,7 +557,8 @@ export default function USCloseBrief20260612() {
           <p className="small">
             Crypto 採 Binance Vision public data 1-minute kline，時間點為
             2026-06-12 20:00:00 UTC（美股 4:00pm ET 附近）；對比基準為
-            2026-06-11 同一時間。原始 Binance 直接 spot API 在部分環境可能受地區限制，因此使用官方 public data ZIP。
+            2026-06-11 同一時間。原始 Binance 直接 spot API
+            在部分環境可能受地區限制，因此使用官方 public data ZIP。
           </p>
         </Card>
 
@@ -591,13 +590,14 @@ export default function USCloseBrief20260612() {
               都同步向上。
             </li>
             <li>
-              <strong>風控：</strong>若 WTI 重上 $90、10Y 重上 4.55%、VIX
-              重上 20，先減高 beta / IPO / 單一主題倉位。
+              <strong>風控：</strong>若 WTI 重上 $90、10Y 重上 4.55%、VIX 重上
+              20，先減高 beta / IPO / 單一主題倉位。
             </li>
             <li>
               <strong>一句到尾：</strong>
-              今日是健康但仍帶 headline risk 的延續反彈；下週關鍵不是「有冇升過」，
-              而是升市能否在 FOMC、Iran 和 SpaceX 第二輪交易後繼續擴散。
+              今日是健康但仍帶 headline risk
+              的延續反彈；下週關鍵不是「有冇升過」， 而是升市能否在 FOMC、Iran
+              和 SpaceX 第二輪交易後繼續擴散。
             </li>
           </ul>
         </Card>
@@ -619,25 +619,27 @@ export default function USCloseBrief20260612() {
               2,943.99；本文採該組收市數字。
             </li>
             <li>
-              SpaceX：Trading Economics 報收 $161.11，部分 IPO
-              追蹤頁報 $160.95；差異屬收市/最後成交或頁面刷新口徑，本文列範圍並以約
-              +19% 描述。
+              SpaceX：Trading Economics 報收 $161.11，部分 IPO 追蹤頁報
+              $160.95；差異屬收市/最後成交或頁面刷新口徑，本文列範圍並以約 +19%
+              描述。
             </li>
             <li>
-              SOXX：不同 quote 頁顯示 close 約 $595.82-$596.25、日變動約
-              +1.5% 至 +1.6%；本文採「約 +1.5%」避免過度精確。
+              SOXX：不同 quote 頁顯示 close 約 $595.82-$596.25、日變動約 +1.5%
+              至 +1.6%；本文採「約 +1.5%」避免過度精確。
             </li>
             <li>
               債息：CNBC 新聞報 10Y 約 4.483%、2Y 約 4.087%，Advisor
               Perspectives 日結亦為 10Y 4.48%、2Y 4.09%；CNBC quote
-              晚間頁面一度顯示 10Y 4.422%，屬時間點差異，本文以新聞/日結口徑為主。
+              晚間頁面一度顯示 10Y
+              4.422%，屬時間點差異，本文以新聞/日結口徑為主。
             </li>
             <li>
               DXY：搜尋可得來源只一致指向美元回軟，未見可靠即時收市數字；本文明確標示「暫無可靠收市數字」。
             </li>
             <li>
               Crypto：Binance 直接 API 在環境中可能受限制，本文使用 Binance
-              Vision official public data 1m kline，精確取 2026-06-12 20:00 UTC close。
+              Vision official public data 1m kline，精確取 2026-06-12 20:00 UTC
+              close。
             </li>
           </ul>
           <p>{disclaimer}</p>

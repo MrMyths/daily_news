@@ -558,8 +558,9 @@ export default function USWeeklyBrief20260711() {
             ))}
           </ul>
           <div className="callout">
-            一句到尾：今週不是熊市訊號，但也不是全面牛市確認。AI 龍頭仍可撐指數，
-            但下週 CPI 與銀行財報會決定升市能否由少數龍頭擴散出去。
+            一句到尾：今週不是熊市訊號，但也不是全面牛市確認。AI
+            龍頭仍可撐指數， 但下週 CPI
+            與銀行財報會決定升市能否由少數龍頭擴散出去。
           </div>
         </Card>
 
@@ -569,8 +570,9 @@ export default function USWeeklyBrief20260711() {
             rows={indexRows}
           />
           <p className="small">
-            指數日變動採 CNBC 7/10 收市口徑；週度 S&P 500 / Nasdaq / sector / style
-            採 Morningstar week ended July 10 口徑。Russell 2000 exact close 在生成時未見可靠來源，故不用估算點位。
+            指數日變動採 CNBC 7/10 收市口徑；週度 S&P 500 / Nasdaq / sector /
+            style 採 Morningstar week ended July 10 口徑。Russell 2000 exact
+            close 在生成時未見可靠來源，故不用估算點位。
           </p>
         </Card>
 
@@ -596,7 +598,8 @@ export default function USWeeklyBrief20260711() {
           />
           <div className="callout warn">
             7/10 完整週度 ETF / mutual fund flows 在生成時暫無可靠數據；本段把
-            price action / breadth 與最新可核 flows 分開寫，避免將不同統計口徑混成單一結論。
+            price action / breadth 與最新可核 flows
+            分開寫，避免將不同統計口徑混成單一結論。
           </div>
         </Card>
 
@@ -619,8 +622,8 @@ export default function USWeeklyBrief20260711() {
             rows={cryptoRows}
           />
           <p className="small">
-            Binance direct API 在此環境回 451；本文改用 Binance Vision public data 的
-            spot 1-minute kline。時間點為 2026-07-10 20:00:00 UTC，對比
+            Binance direct API 在此環境回 451；本文改用 Binance Vision public
+            data 的 spot 1-minute kline。時間點為 2026-07-10 20:00:00 UTC，對比
             2026-07-03 同一時間，盡量貼近美股收市 4:00pm ET。
           </p>
         </Card>
@@ -653,17 +656,19 @@ export default function USWeeklyBrief20260711() {
             </li>
             <li>
               <strong>中線：</strong>
-              AI、energy、financials 是下週三個關鍵觀察區。AI 看 capex 回報，energy
-              看中東與油價，financials 看 credit 與 loan demand。
+              AI、energy、financials 是下週三個關鍵觀察區。AI 看 capex
+              回報，energy 看中東與油價，financials 看 credit 與 loan demand。
             </li>
             <li>
-              <strong>風控：</strong>若 10Y 升穿 4.60%、FedWatch 加息 odds 明顯上升、VIX
-              重上 17-18，先減少 small caps、unprofitable growth、crypto beta。
+              <strong>風控：</strong>若 10Y 升穿 4.60%、FedWatch 加息 odds
+              明顯上升、VIX 重上 17-18，先減少 small caps、unprofitable
+              growth、crypto beta。
             </li>
             <li>
               <strong>最終觀點：</strong>
-              今週是「指數強、廣度弱」的升市。最靚是 S&P / Nasdaq 能在地緣壓力下收高；
-              最危險是過半股票其實跌。下週要睇的是 CPI 後資金會否擴散，而不是單看幾隻 AI 龍頭。
+              今週是「指數強、廣度弱」的升市。最靚是 S&P / Nasdaq
+              能在地緣壓力下收高； 最危險是過半股票其實跌。下週要睇的是 CPI
+              後資金會否擴散，而不是單看幾隻 AI 龍頭。
             </li>
           </ul>
 
@@ -678,28 +683,33 @@ export default function USWeeklyBrief20260711() {
           <h3>數據差異處理</h3>
           <ul>
             <li>
-              指數：週五收市採 CNBC final close；週度 S&P 500 / Nasdaq 與板塊/風格採
-              Morningstar week ended July 10。Dow weekly 採 CNBC 文字口徑（約 -0.5%）。
+              指數：週五收市採 CNBC final close；週度 S&P 500 / Nasdaq
+              與板塊/風格採 Morningstar week ended July 10。Dow weekly 採 CNBC
+              文字口徑（約 -0.5%）。
             </li>
             <li>
-              VIX：Cboe page 生成時為盤中/延遲 spot 15.65，Investing historical table
-              顯示 7/10 close 15.25；本文同時標示來源差異，不混作同一時間點。
+              VIX：Cboe page 生成時為盤中/延遲 spot 15.65，Investing historical
+              table 顯示 7/10 close
+              15.25；本文同時標示來源差異，不混作同一時間點。
             </li>
             <li>
-              FedWatch：Investing.com 7/10 14:55 EDT 顯示 7/29 hold 66.8%、加息 33.2%；
-              其他媒體曾引較早 CME 口徑約 74.9% hold，本文優先採較近收市前更新。
+              FedWatch：Investing.com 7/10 14:55 EDT 顯示 7/29 hold 66.8%、加息
+              33.2%； 其他媒體曾引較早 CME 口徑約 74.9%
+              hold，本文優先採較近收市前更新。
             </li>
             <li>
-              油價/黃金/DXY：不同來源有 intraday、settlement、spot 時間差異；本文用
-              settlement 或明確標示的市場綜合數字，避免過度精確。
+              油價/黃金/DXY：不同來源有 intraday、settlement、spot
+              時間差異；本文用 settlement
+              或明確標示的市場綜合數字，避免過度精確。
             </li>
             <li>
               Fund flows：7/10 完整週度 flow 暫無可靠數據；ETF.com / ICI / LSEG
-              對截至 7/1-7/3 的 flows 口徑不同，本文只作背景，不當成本週即時資金流。
+              對截至 7/1-7/3 的 flows
+              口徑不同，本文只作背景，不當成本週即時資金流。
             </li>
             <li>
-              Crypto：Binance 直接 API 在環境中回 451；本文使用 Binance Vision public
-              data 取得 1m kline，沒有使用媒體近似報價。
+              Crypto：Binance 直接 API 在環境中回 451；本文使用 Binance Vision
+              public data 取得 1m kline，沒有使用媒體近似報價。
             </li>
           </ul>
           <p>{disclaimer}</p>

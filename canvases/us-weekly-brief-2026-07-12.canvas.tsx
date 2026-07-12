@@ -578,9 +578,10 @@ export default function USWeeklyBrief20260712() {
             rows={indexRows}
           />
           <p className="small">
-            指數日變動採 NBC/CNN Newsource 及 CNBC 類收市口徑交叉核對；週度 S&P 500 / Nasdaq / sector /
-            style 採 Morningstar week ended July 10 口徑。Russell 2000 exact
-            close 在生成時未見可靠來源，故不用估算點位。
+            指數日變動採 NBC/CNN Newsource 及 CNBC 類收市口徑交叉核對；週度 S&P
+            500 / Nasdaq / sector / style 採 Morningstar week ended July 10
+            口徑。Russell 2000 exact close
+            在生成時未見可靠來源，故不用估算點位。
           </p>
         </Card>
 
@@ -691,8 +692,9 @@ export default function USWeeklyBrief20260712() {
           <h3>數據差異處理</h3>
           <ul>
             <li>
-              指數：週五收市採 NBC/CNN Newsource、Motley Fool 及其他收市表交叉核對；週度 S&P 500 / Nasdaq
-              與板塊/風格採 Morningstar week ended July 10。Dow weekly 採 CNBC / T. Rowe Price
+              指數：週五收市採 NBC/CNN Newsource、Motley Fool
+              及其他收市表交叉核對；週度 S&P 500 / Nasdaq 與板塊/風格採
+              Morningstar week ended July 10。Dow weekly 採 CNBC / T. Rowe Price
               文字口徑（約 -0.5%）。
             </li>
             <li>
@@ -701,8 +703,8 @@ export default function USWeeklyBrief20260712() {
               15.25；本文同時標示來源差異，不混作同一時間點。
             </li>
             <li>
-              FedWatch：Investing.com 最新頁面顯示 7/29 hold 64.6%、加息
-              35.4%； 其他媒體曾引較早 CME / Investing 口徑約 66%-75%
+              FedWatch：Investing.com 最新頁面顯示 7/29 hold 64.6%、加息 35.4%；
+              其他媒體曾引較早 CME / Investing 口徑約 66%-75%
               hold，本文優先採生成時可核的較新更新。
             </li>
             <li>

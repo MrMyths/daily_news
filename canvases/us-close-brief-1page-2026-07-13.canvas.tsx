@@ -30,7 +30,10 @@ const sources = [
     "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/us-stocks-wall-street-ends-lower-iran-tensions-dampen-risk-appetite-chipmakers-drop",
   ],
   ["Cboe/CNBC VIX", "https://www.cnbc.com/quotes/.VIX"],
-  ["CME FedWatch", "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"],
+  [
+    "CME FedWatch",
+    "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
+  ],
   ["Binance Vision", "https://github.com/binance/binance-public-data"],
 ];
 
@@ -133,8 +136,8 @@ export default function USCloseBriefOnePage20260713() {
               <a href={url}>{name}</a>
             </React.Fragment>
           ))}
-          。指數採 AP/CNBC/Reuters 一致收市口徑；VIX 採 CNBC/Cboe quote；
-          sector ETF 與重點股票採 Yahoo Finance chart 7/13 日線並用 Reuters/CNBC
+          。指數採 AP/CNBC/Reuters 一致收市口徑；VIX 採 CNBC/Cboe quote； sector
+          ETF 與重點股票採 Yahoo Finance chart 7/13 日線並用 Reuters/CNBC
           敘事交叉核對；oil 採 Reuters 結算口徑；FedWatch 機率因即時變動，採
           CNBC/CME 與 Bloomberg/Financial Post 區間描述；Crypto 採 Binance
           data-api 2026-07-13 20:00 UTC 1m close。

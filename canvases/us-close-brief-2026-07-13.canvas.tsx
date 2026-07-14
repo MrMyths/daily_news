@@ -304,11 +304,7 @@ const technicalLevels = [
     "2,950 / 3,000",
     "收 2,953.17，仍未能重上 3,000；若跌穿 2,950，breadth 會再惡化。",
   ],
-  [
-    "VIX",
-    "18 / 20",
-    "17.16 已由 calm 區反彈；18 是警戒，20 是去風險加速線。",
-  ],
+  ["VIX", "18 / 20", "17.16 已由 calm 區反彈；18 是警戒，20 是去風險加速線。"],
   [
     "SOXX",
     "$550 / $580",
@@ -451,9 +447,9 @@ export default function USCloseBrief20260713() {
         <div className="eyebrow">美股收盤懶人包｜完整版</div>
         <h1>油價急升嚇窒科技股，AI 晶片急回吐</h1>
         <p className="subtitle">
-          7 月 13 日美股轉弱：特朗普重提霍爾木茲/伊朗航運封鎖，WTI 與 Brent
-          約升 9%，推高通脹與加息憂慮。能源股一枝獨秀，但 Nasdaq、SOXX
-          和多隻 AI hardware 名字急跌，市場由上週五的 AI 興奮切換到風控模式。
+          7 月 13 日美股轉弱：特朗普重提霍爾木茲/伊朗航運封鎖，WTI 與 Brent 約升
+          9%，推高通脹與加息憂慮。能源股一枝獨秀，但 Nasdaq、SOXX 和多隻 AI
+          hardware 名字急跌，市場由上週五的 AI 興奮切換到風控模式。
         </p>
         <div className="meta">
           <span className="pill">交易日：{reportDate}</span>
@@ -473,9 +469,9 @@ export default function USCloseBrief20260713() {
             ))}
           </ul>
           <div className="callout">
-            今日結論：不是普通科技回吐，而是「油價 shock + 債息上行 + AI
-            crowded trade 降溫」。短線要守住 S&P 500 7,500、SOXX $550、VIX 18
-            和 10Y 4.70%；未守穩前，不宜把跌市當成無腦撈底訊號。
+            今日結論：不是普通科技回吐，而是「油價 shock + 債息上行 + AI crowded
+            trade 降溫」。短線要守住 S&P 500 7,500、SOXX $550、VIX 18 和 10Y
+            4.70%；未守穩前，不宜把跌市當成無腦撈底訊號。
           </div>
         </Card>
 
@@ -489,8 +485,8 @@ export default function USCloseBrief20260713() {
         <Card title="3｜市場寬度與風險胃納">
           <ul>
             <li>
-              AP、CNBC、Reuters 對三大指數口徑一致：S&P 500 約 -0.8%、Dow
-              約 -0.3%、Nasdaq 約 -1.6%，科技明顯跑輸。
+              AP、CNBC、Reuters 對三大指數口徑一致：S&P 500 約 -0.8%、Dow 約
+              -0.3%、Nasdaq 約 -1.6%，科技明顯跑輸。
             </li>
             <li>
               Russell 2000 -0.83%，即使能源股急升，細價股仍未能擴散反彈，
@@ -538,8 +534,8 @@ export default function USCloseBrief20260713() {
               -4.77%，TradingKey 指費城半導體指數跌 4.78%、成分股全跌。
             </li>
             <li>
-              NVDA、AMD、MU、INTC、AVGO、TSM 都跌，反映不是單一股票問題，而是
-              AI hardware crowded trade 被集體降溫。
+              NVDA、AMD、MU、INTC、AVGO、TSM 都跌，反映不是單一股票問題，而是 AI
+              hardware crowded trade 被集體降溫。
             </li>
           </ul>
           <h3>3）市場等 CPI、銀行業績與 Warsh 聽證</h3>
@@ -549,8 +545,8 @@ export default function USCloseBrief20260713() {
               國會聽證是下一批催化。
             </li>
             <li>
-              白話講：今日市場先收縮風險，等明日數據回答「油價 shock
-              會否逼 Fed 更 hawkish」。
+              白話講：今日市場先收縮風險，等明日數據回答「油價 shock 會否逼 Fed
+              更 hawkish」。
             </li>
           </ul>
         </Card>
@@ -558,8 +554,9 @@ export default function USCloseBrief20260713() {
         <Card title="6｜宏觀白話版">
           <DataTable headers={["項目", "數據", "解讀"]} rows={macroRows} />
           <div className="callout">
-            白話講：macro 由「AI 可以抵消利率壓力」變成「油價重新推高通脹與加息風險」。
-            在 10Y 站上 4.60%、DXY 站上 101、Brent 站上 $83 的組合下，科技估值
+            白話講：macro 由「AI
+            可以抵消利率壓力」變成「油價重新推高通脹與加息風險」。 在 10Y 站上
+            4.60%、DXY 站上 101、Brent 站上 $83 的組合下，科技估值
             短線自然較難擴張。
           </div>
         </Card>
@@ -578,9 +575,9 @@ export default function USCloseBrief20260713() {
           />
           <p className="small">
             Crypto 採 Binance data-api 1-minute kline，時間點為 2026-07-13
-            20:00:00 UTC（美股 4:00pm ET 附近）；對比基準為 2026-07-10
-            20:00:00 UTC。直接 Binance spot API 如受地區限制，官方 public
-            data/data-api 是較可重現口徑。
+            20:00:00 UTC（美股 4:00pm ET 附近）；對比基準為 2026-07-10 20:00:00
+            UTC。直接 Binance spot API 如受地區限制，官方 public data/data-api
+            是較可重現口徑。
           </p>
         </Card>
 
@@ -618,8 +615,8 @@ export default function USCloseBrief20260713() {
             </li>
             <li>
               <strong>一句到尾：</strong>
-              今日是「能源股贏、科技股輸」的通脹 shock 市；可觀察反彈，但唔好急住
-              假設 AI dip 一定即刻被買返。
+              今日是「能源股贏、科技股輸」的通脹 shock
+              市；可觀察反彈，但唔好急住 假設 AI dip 一定即刻被買返。
             </li>
           </ul>
         </Card>
@@ -636,9 +633,8 @@ export default function USCloseBrief20260713() {
           <h3>數據差異處理</h3>
           <ul>
             <li>
-              指數收市：AP、CNBC、Sharecast 與 Reuters 對 Dow 52,498.64、S&P
-              500 7,515.34、Nasdaq 25,873.18 口徑一致；Russell 2000 採 AP
-              2,953.17。
+              指數收市：AP、CNBC、Sharecast 與 Reuters 對 Dow 52,498.64、S&P 500
+              7,515.34、Nasdaq 25,873.18 口徑一致；Russell 2000 採 AP 2,953.17。
             </li>
             <li>
               Sector ETF：本文用 Yahoo Finance chart 7/13 日線收市作數字口徑；
@@ -651,15 +647,15 @@ export default function USCloseBrief20260713() {
               本文採 Reuters 結算口徑。
             </li>
             <li>
-              Treasury / FedWatch：Reuters 報 10Y 至 4.62%；CNBC 報 CME
-              FedWatch 7 月加息機率逾 41%，Bloomberg/Financial Post 報 money-market
+              Treasury / FedWatch：Reuters 報 10Y 至 4.62%；CNBC 報 CME FedWatch
+              7 月加息機率逾 41%，Bloomberg/Financial Post 報 money-market
               pricing 接近 50%。因概率即時變動，本文標明來源與時間差異。
             </li>
             <li>
               Gold / DXY：Reuters multi-asset 稿報 DXY 101.32、spot gold
               $3,998.52；另一 Reuters FX 稿報 DXY 101.27，CNBC gold
-              即時口徑曾在約 $4,070。本文用方向與區間解讀，不把單一 gold
-              tick 當核心結論。
+              即時口徑曾在約 $4,070。本文用方向與區間解讀，不把單一 gold tick
+              當核心結論。
             </li>
             <li>
               Crypto：直接 Binance spot API 如受地區限制，本文使用 Binance

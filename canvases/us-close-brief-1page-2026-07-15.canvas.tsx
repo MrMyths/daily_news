@@ -21,22 +21,10 @@ const sources = [
     "CNBC",
     "https://www.cnbc.com/2026/07/14/stock-market-today-live-updates.html",
   ],
-  [
-    "BLS PPI",
-    "https://www.bls.gov/news.release/archives/ppi_07152026.htm",
-  ],
-  [
-    "Cboe VIX",
-    "https://www.cboe.com/tradable-products/vix/",
-  ],
-  [
-    "FedWatch",
-    "https://www.investing.com/central-banks/fed-rate-monitor",
-  ],
-  [
-    "Binance Vision",
-    "https://github.com/binance/binance-public-data",
-  ],
+  ["BLS PPI", "https://www.bls.gov/news.release/archives/ppi_07152026.htm"],
+  ["Cboe VIX", "https://www.cboe.com/tradable-products/vix/"],
+  ["FedWatch", "https://www.investing.com/central-banks/fed-rate-monitor"],
+  ["Binance Vision", "https://github.com/binance/binance-public-data"],
 ];
 
 export default function USCloseBriefOnePage20260715() {
@@ -138,9 +126,9 @@ export default function USCloseBriefOnePage20260715() {
               <a href={url}>{name}</a>
             </React.Fragment>
           ))}
-          。指數採 AP/CNBC 最終收市口徑；PPI 採 BLS；VIX 採 Cboe；FedWatch
-          採 Investing/CME 口徑；Crypto 採 Binance Vision 2026-07-15 20:00 UTC
-          1m close。Yahoo chart API 今次 429，缺可靠收市百分比的板塊不硬填。
+          。指數採 AP/CNBC 最終收市口徑；PPI 採 BLS；VIX 採 Cboe；FedWatch 採
+          Investing/CME 口徑；Crypto 採 Binance Vision 2026-07-15 20:00 UTC 1m
+          close。Yahoo chart API 今次 429，缺可靠收市百分比的板塊不硬填。
         </p>
         <p className="small">{disclaimer}</p>
       </section>

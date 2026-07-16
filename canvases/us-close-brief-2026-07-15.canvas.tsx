@@ -282,11 +282,7 @@ const technicalLevels = [
     "2,950 / 3,000",
     "收 2,976.26，離 3,000 只差一步；突破才確認升勢擴散到小型股。",
   ],
-  [
-    "VIX",
-    "15.5 / 18",
-    "15.67 屬低壓區；重上 18 代表油價或地緣風險重新主導。",
-  ],
+  ["VIX", "15.5 / 18", "15.67 屬低壓區；重上 18 代表油價或地緣風險重新主導。"],
   [
     "SOX / SMH",
     "SOX 12,400 / SMH 跌逾 1%",
@@ -469,18 +465,20 @@ export default function USCloseBrief20260715() {
           <ul>
             <li>
               AP/CNBC 對三大指數收市口徑一致：S&P 500 +0.38%、Dow +0.29%、
-              Nasdaq +0.62%；Reuters/其他稿件有幾點的 preliminary 差距，但方向一致。
+              Nasdaq +0.62%；Reuters/其他稿件有幾點的 preliminary
+              差距，但方向一致。
             </li>
             <li>
               Russell 2000 +0.39% 至 2,976.26，代表小型股都有跟升；不過仍未突破
               3,000，升勢廣度暫時只算改善，不算全面狂熱。
             </li>
             <li>
-              VIX 由 16.50 跌至 15.67，保護需求下降；這是今日 risk-on 的最清楚訊號之一。
+              VIX 由 16.50 跌至 15.67，保護需求下降；這是今日 risk-on
+              的最清楚訊號之一。
             </li>
             <li>
-              但市場內部分化大：Communication/mega-cap tech 強，semis/memory 弱，
-              healthcare 與部分高估值新股受壓，表示資金仍然好揀擇。
+              但市場內部分化大：Communication/mega-cap tech 強，semis/memory
+              弱， healthcare 與部分高估值新股受壓，表示資金仍然好揀擇。
             </li>
           </ul>
         </Card>
@@ -491,7 +489,8 @@ export default function USCloseBrief20260715() {
             rows={sectorRows}
           />
           <p className="small">
-            Yahoo chart API 今次回 429，板塊數字以 CNBC/Motley/Investopedia/TradingKey
+            Yahoo chart API 今次回 429，板塊數字以
+            CNBC/Motley/Investopedia/TradingKey
             等可讀來源交叉核對；沒有可靠收市百分比的板塊明確寫「暫無可靠數據」。
             SOX/SMH 不是 GICS sector，但保留作 AI hardware 溫度計。
           </p>
@@ -505,8 +504,8 @@ export default function USCloseBrief20260715() {
               goods -1.4%、energy -6.4% 是主要拖低因素。
             </li>
             <li>
-              CNBC 指 10Y yield 跌至約 4.555%、2Y 跌至約 4.145%，FedWatch 顯示
-              7 月維持 3.50%-3.75% 的機率升到接近 88%。
+              CNBC 指 10Y yield 跌至約 4.555%、2Y 跌至約 4.145%，FedWatch 顯示 7
+              月維持 3.50%-3.75% 的機率升到接近 88%。
             </li>
           </ul>
           <h3>2）大型平台科技托住 Nasdaq</h3>
@@ -536,8 +535,10 @@ export default function USCloseBrief20260715() {
         <Card title="6｜宏觀白話版">
           <DataTable headers={["項目", "數據", "解讀"]} rows={macroRows} />
           <div className="callout">
-            白話講：今日 macro 是「PPI 幫 Fed 可以等一等」對「油價可能令通脹返轉頭」的拔河。
-            股票今日先買第一句，但如果 Brent 企穩 $85-$86，市場很快會重新討論能源通脹。
+            白話講：今日 macro 是「PPI 幫 Fed
+            可以等一等」對「油價可能令通脹返轉頭」的拔河。
+            股票今日先買第一句，但如果 Brent 企穩
+            $85-$86，市場很快會重新討論能源通脹。
           </div>
         </Card>
 
@@ -554,10 +555,10 @@ export default function USCloseBrief20260715() {
             rows={cryptoRows}
           />
           <p className="small">
-            Crypto 採 Binance Vision data-api 1-minute kline，時間點為 2026-07-15
-            20:00:00 UTC（美股 4:00pm ET 附近）；對比基準為 2026-07-14 20:00:00
-            UTC。直接 Binance spot API 如受地區限制，官方 public data/data-api
-            是較可重現口徑。
+            Crypto 採 Binance Vision data-api 1-minute kline，時間點為
+            2026-07-15 20:00:00 UTC（美股 4:00pm ET 附近）；對比基準為
+            2026-07-14 20:00:00 UTC。直接 Binance spot API 如受地區限制，官方
+            public data/data-api 是較可重現口徑。
           </p>
         </Card>
 
@@ -596,7 +597,8 @@ export default function USCloseBrief20260715() {
             <li>
               <strong>一句到尾：</strong>
               今日係「PPI 降溫 + 大型科技撐市 + 金融業績/PayPal 併購」的反彈日；
-              可以承認 risk appetite 改善，但半導體回吐同油價壓力話你知，市場仍然未係無腦追高。
+              可以承認 risk appetite
+              改善，但半導體回吐同油價壓力話你知，市場仍然未係無腦追高。
             </li>
           </ul>
         </Card>
@@ -623,21 +625,24 @@ export default function USCloseBrief20260715() {
               2,980.95/+0.55%。本文採 AP 主要指數稿。
             </li>
             <li>
-              板塊：Yahoo chart API 回 429；本文以 CNBC、Motley Fool、Investopedia、
-              TradingKey 與 Benzinga 可讀頁面交叉核對。沒有可靠收市百分比的板塊寫
+              板塊：Yahoo chart API 回 429；本文以 CNBC、Motley
+              Fool、Investopedia、 TradingKey 與 Benzinga
+              可讀頁面交叉核對。沒有可靠收市百分比的板塊寫
               「暫無可靠數據」，不以盤中 quote 冒充收市。
             </li>
             <li>
-              Treasury：CNBC 是即時盤中/收市附近 quote（10Y 4.555%、2Y 4.145%）；
-              Fed H.15 是官方 3:30pm curve（2Y 4.21%、10Y 4.56%、30Y 5.06%）。本文同列兩者並標明口徑。
+              Treasury：CNBC 是即時盤中/收市附近 quote（10Y 4.555%、2Y
+              4.145%）； Fed H.15 是官方 3:30pm curve（2Y 4.21%、10Y 4.56%、30Y
+              5.06%）。本文同列兩者並標明口徑。
             </li>
             <li>
-              Oil/Gold/DXY：Investopedia、Motley、Sharecast 與 Investing.com 時間戳不同；本文以
-              WTI $80.35、Brent 約 $85.5、DXY 100.52、gold 約 $4,060 作收市附近參考，並註明來源差異。
+              Oil/Gold/DXY：Investopedia、Motley、Sharecast 與 Investing.com
+              時間戳不同；本文以 WTI $80.35、Brent 約 $85.5、DXY 100.52、gold 約
+              $4,060 作收市附近參考，並註明來源差異。
             </li>
             <li>
-              Crypto：直接 Binance spot API 受地區限制，本文使用 Binance Vision data-api 1m kline，
-              精確取 2026-07-15 20:00 UTC close。
+              Crypto：直接 Binance spot API 受地區限制，本文使用 Binance Vision
+              data-api 1m kline， 精確取 2026-07-15 20:00 UTC close。
             </li>
           </ul>
           <p>{disclaimer}</p>

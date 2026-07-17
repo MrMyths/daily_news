@@ -13,11 +13,23 @@ const bullets = [
 ];
 
 const sources = [
-  ["CNBC", "https://www.cnbc.com/2026/07/15/stock-market-today-live-updates.html"],
-  ["AP", "https://www.compuserve.com/news/world/story/0001/20260716/e1c646be279423406586c67c79e738e4"],
-  ["Reuters/Yahoo", "https://sg.finance.yahoo.com/news/asian-shares-slump-chipmaker-drag-022037813.html"],
+  [
+    "CNBC",
+    "https://www.cnbc.com/2026/07/15/stock-market-today-live-updates.html",
+  ],
+  [
+    "AP",
+    "https://www.compuserve.com/news/world/story/0001/20260716/e1c646be279423406586c67c79e738e4",
+  ],
+  [
+    "Reuters/Yahoo",
+    "https://sg.finance.yahoo.com/news/asian-shares-slump-chipmaker-drag-022037813.html",
+  ],
   ["Census", "https://www.census.gov/retail/sales.html"],
-  ["TSMC SEC", "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000451/a2q26e_withguidancexfinal.htm"],
+  [
+    "TSMC SEC",
+    "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000451/a2q26e_withguidancexfinal.htm",
+  ],
   ["FedWatch", "https://www.investing.com/central-banks/fed-rate-monitor"],
   ["Binance Vision", "https://github.com/binance/binance-public-data"],
 ];
@@ -121,9 +133,9 @@ export default function USCloseBriefOnePage20260716() {
               <a href={url}>{name}</a>
             </React.Fragment>
           ))}
-          。指數採 CNBC/AP；ETF/個股 close 以 Yahoo chart 交叉核對；Crypto 採 Binance
-          Vision 2026-07-16 20:00 UTC 1m close。Initial claims 因官方 DOL
-          即時頁在本環境抓到舊版，本文標示採 CNBC/Reuters 208k 口徑。
+          。指數採 CNBC/AP；ETF/個股 close 以 Yahoo chart 交叉核對；Crypto 採
+          Binance Vision 2026-07-16 20:00 UTC 1m close。Initial claims 因官方
+          DOL 即時頁在本環境抓到舊版，本文標示採 CNBC/Reuters 208k 口徑。
         </p>
         <p className="small">{disclaimer}</p>
       </section>

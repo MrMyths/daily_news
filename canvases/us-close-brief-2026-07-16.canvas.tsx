@@ -103,18 +103,73 @@ const indexRows = [
 ];
 
 const sectorRows = [
-  ["Consumer Staples / XLP", "+2.80%", "領先", "防守消費成為避風港，資金由高估值 AI beta 轉去穩定現金流。"],
-  ["Health Care / XLV", "+2.22%", "領先", "UnitedHealth、Abbott 等業績與指引改善，撐起醫療板塊。"],
-  ["Real Estate / XLRE", "+2.02%", "反彈", "即使 10Y 靠近 4.56%，REITs 仍有補倉買盤，顯示低位板塊有輪動。"],
-  ["Energy / XLE", "+0.92%", "靠穩", "油價仍受中東風險支撐，但 WTI 收市回落，能源股升幅不算失控。"],
+  [
+    "Consumer Staples / XLP",
+    "+2.80%",
+    "領先",
+    "防守消費成為避風港，資金由高估值 AI beta 轉去穩定現金流。",
+  ],
+  [
+    "Health Care / XLV",
+    "+2.22%",
+    "領先",
+    "UnitedHealth、Abbott 等業績與指引改善，撐起醫療板塊。",
+  ],
+  [
+    "Real Estate / XLRE",
+    "+2.02%",
+    "反彈",
+    "即使 10Y 靠近 4.56%，REITs 仍有補倉買盤，顯示低位板塊有輪動。",
+  ],
+  [
+    "Energy / XLE",
+    "+0.92%",
+    "靠穩",
+    "油價仍受中東風險支撐，但 WTI 收市回落，能源股升幅不算失控。",
+  ],
   ["Materials / XLB", "+0.77%", "偏強", "受惠大市廣度改善及 cyclicals 輪動。"],
-  ["Utilities / XLU", "+0.55%", "防守", "VIX 上升時有資金泊入，但債息偏高限制估值擴張。"],
-  ["Financials / XLF", "+0.34%", "穩定", "銀行業績季開局強，市場仍相信信貸與資本市場活動未轉差。"],
-  ["Consumer Discretionary / XLY", "+0.29%", "窄幅升", "零售數據顯示消費有韌性，但高油價與高利率令升幅受限。"],
-  ["Industrials / XLI", "+0.05%", "持平", "Cintas 強、GE Aerospace 弱，板塊內部分化。"],
-  ["Communication Services / XLC", "-0.64%", "轉弱", "Alphabet 因 Gemini 3.5 Pro 延遲報道跌 4.44%，拖累整個通訊服務。"],
-  ["Technology / XLK", "-2.24%", "跑輸", "AI 軟硬件同時被重新估值，mega-cap tech 未能再撐市。"],
-  ["Semiconductors / SOXX", "-4.46%", "最弱", "TSMC capex 上調引發 AI 投資回報疑慮，SMH 亦跌 3.70%。"],
+  [
+    "Utilities / XLU",
+    "+0.55%",
+    "防守",
+    "VIX 上升時有資金泊入，但債息偏高限制估值擴張。",
+  ],
+  [
+    "Financials / XLF",
+    "+0.34%",
+    "穩定",
+    "銀行業績季開局強，市場仍相信信貸與資本市場活動未轉差。",
+  ],
+  [
+    "Consumer Discretionary / XLY",
+    "+0.29%",
+    "窄幅升",
+    "零售數據顯示消費有韌性，但高油價與高利率令升幅受限。",
+  ],
+  [
+    "Industrials / XLI",
+    "+0.05%",
+    "持平",
+    "Cintas 強、GE Aerospace 弱，板塊內部分化。",
+  ],
+  [
+    "Communication Services / XLC",
+    "-0.64%",
+    "轉弱",
+    "Alphabet 因 Gemini 3.5 Pro 延遲報道跌 4.44%，拖累整個通訊服務。",
+  ],
+  [
+    "Technology / XLK",
+    "-2.24%",
+    "跑輸",
+    "AI 軟硬件同時被重新估值，mega-cap tech 未能再撐市。",
+  ],
+  [
+    "Semiconductors / SOXX",
+    "-4.46%",
+    "最弱",
+    "TSMC capex 上調引發 AI 投資回報疑慮，SMH 亦跌 3.70%。",
+  ],
 ];
 
 const stockRows = [
@@ -194,15 +249,42 @@ const macroRows = [
 ];
 
 const cryptoRows = [
-  ["BTCUSDT", "$64,275.99", "-1.02%", "風險資產同步降溫，BTC 失守前一日 $64.9k 附近。"],
-  ["ETHUSDT", "$1,875.66", "-2.47%", "ETH 對 AI/高 beta sentiment 更敏感，跌幅大過 BTC。"],
-  ["SOLUSDT", "$75.85", "-1.72%", "SOL 跟隨 beta 回吐，但跌幅介乎 BTC 與 ETH 之間。"],
+  [
+    "BTCUSDT",
+    "$64,275.99",
+    "-1.02%",
+    "風險資產同步降溫，BTC 失守前一日 $64.9k 附近。",
+  ],
+  [
+    "ETHUSDT",
+    "$1,875.66",
+    "-2.47%",
+    "ETH 對 AI/高 beta sentiment 更敏感，跌幅大過 BTC。",
+  ],
+  [
+    "SOLUSDT",
+    "$75.85",
+    "-1.72%",
+    "SOL 跟隨 beta 回吐，但跌幅介乎 BTC 與 ETH 之間。",
+  ],
 ];
 
 const technicalRows = [
-  ["S&P 500", "7,500 / 7,570 / 7,620", "守 7,500 代表只是高位整固；重新企 7,570 先叫修復。"],
-  ["Nasdaq", "25,750 / 26,000 / 26,300", "25,750 是短線防線；26,000 下方代表 tech momentum 仍弱。"],
-  ["SOXX / SMH", "SOXX 525 / 545；SMH 560 / 590", "晶片 ETF 要先止跌，否則大市升幅會繼續靠防守輪動。"],
+  [
+    "S&P 500",
+    "7,500 / 7,570 / 7,620",
+    "守 7,500 代表只是高位整固；重新企 7,570 先叫修復。",
+  ],
+  [
+    "Nasdaq",
+    "25,750 / 26,000 / 26,300",
+    "25,750 是短線防線；26,000 下方代表 tech momentum 仍弱。",
+  ],
+  [
+    "SOXX / SMH",
+    "SOXX 525 / 545；SMH 560 / 590",
+    "晶片 ETF 要先止跌，否則大市升幅會繼續靠防守輪動。",
+  ],
   ["VIX", "16 / 18 / 20", "VIX 低於 18 屬可控；升穿 20 才需要明顯降低風險。"],
 ];
 
@@ -241,13 +323,7 @@ function Section({
   );
 }
 
-function DataTable({
-  headers,
-  rows,
-}: {
-  headers: string[];
-  rows: string[][];
-}) {
+function DataTable({ headers, rows }: { headers: string[]; rows: string[][] }) {
   return (
     <table>
       <thead>
@@ -382,7 +458,9 @@ export default function USCloseBrief20260716() {
         <div className="meta">
           <span className="pill">{publishedAt}</span>
           <span className="pill">資料口徑：美股 4:00pm ET 附近</span>
-          <span className="pill">Crypto：Binance Vision 20:00 UTC 1m close</span>
+          <span className="pill">
+            Crypto：Binance Vision 20:00 UTC 1m close
+          </span>
         </div>
         <div className="lead">
           <div className="stat">
@@ -414,72 +492,93 @@ export default function USCloseBrief20260716() {
             轉向「AI 建設成本會否太高」。
           </li>
           <li>
-            宏觀數據偏韌：零售 +0.2%、claims 208k、Philly Fed 41.4；這支持經濟，但同時令債息維持高位。
+            宏觀數據偏韌：零售 +0.2%、claims 208k、Philly Fed
+            41.4；這支持經濟，但同時令債息維持高位。
           </li>
           <li>
-            防守消費、醫療、REITs 跑贏；科技與通訊服務跑輸，輪動味道比 panic 更重。
+            防守消費、醫療、REITs 跑贏；科技與通訊服務跑輸，輪動味道比 panic
+            更重。
           </li>
           <li>
-            Crypto 跟隨 high beta 回吐：BTC -1.02%、ETH -2.47%、SOL -1.72%（Binance 20:00 UTC）。 
+            Crypto 跟隨 high beta 回吐：BTC -1.02%、ETH -2.47%、SOL
+            -1.72%（Binance 20:00 UTC）。
           </li>
         </ul>
       </Section>
 
       <Section number="02" title="大市一眼睇">
-        <DataTable headers={["指數", "收市", "變動", "解讀"]} rows={indexRows} />
+        <DataTable
+          headers={["指數", "收市", "變動", "解讀"]}
+          rows={indexRows}
+        />
         <p className="note">
-          CNBC/AP 對 S&P 500、Dow、Nasdaq 的收市數字一致；Yahoo chart 對 Nasdaq 顯示
-          25,881.947，四捨五入後與 CNBC 25,881.95 一致。
+          CNBC/AP 對 S&P 500、Dow、Nasdaq 的收市數字一致；Yahoo chart 對 Nasdaq
+          顯示 25,881.947，四捨五入後與 CNBC 25,881.95 一致。
         </p>
       </Section>
 
       <Section number="03" title="板塊紅綠燈 / 熱度圖">
-        <DataTable headers={["板塊 / ETF", "收市變動", "狀態", "白話解讀"]} rows={sectorRows} />
+        <DataTable
+          headers={["板塊 / ETF", "收市變動", "狀態", "白話解讀"]}
+          rows={sectorRows}
+        />
       </Section>
 
       <Section number="04" title="今日升跌原因">
         <h3>點解跌？</h3>
         <ul>
           <li>
-            <strong>AI capex shock：</strong>TSMC record profit 仍被賣，因 capex 指引上調令市場擔心
-            AI datacenter spending 太重，拖低 semis。
+            <strong>AI capex shock：</strong>TSMC record profit 仍被賣，因 capex
+            指引上調令市場擔心 AI datacenter spending 太重，拖低 semis。
           </li>
           <li>
-            <strong>Alphabet execution risk：</strong>Gemini 3.5 Pro 延遲報道，觸發投資者質疑 Google
-            在 coding / agentic AI 競賽中是否落後。
+            <strong>Alphabet execution risk：</strong>Gemini 3.5 Pro
+            延遲報道，觸發投資者質疑 Google 在 coding / agentic AI
+            競賽中是否落後。
           </li>
           <li>
-            <strong>債息不肯跌：</strong>零售、claims、Philly Fed 都偏強，10Y 約 4.56%，高估值長久期科技自然受壓。
+            <strong>債息不肯跌：</strong>零售、claims、Philly Fed 都偏強，10Y 約
+            4.56%，高估值長久期科技自然受壓。
           </li>
         </ul>
         <h3>點解又未算差？</h3>
         <ul>
-          <li>RSP +0.98%，XLP/XLV/XLRE 領升，表示資金轉倉而不是全部撤離股市。</li>
-          <li>業績季初段仍有支持：CNBC 指已公布的 40 間 S&P 500 公司中，逾 87% 好過預期。</li>
+          <li>
+            RSP +0.98%，XLP/XLV/XLRE 領升，表示資金轉倉而不是全部撤離股市。
+          </li>
+          <li>
+            業績季初段仍有支持：CNBC 指已公布的 40 間 S&P 500 公司中，逾 87%
+            好過預期。
+          </li>
           <li>VIX 只升至 16.73，未突破 18-20 的風險區。</li>
         </ul>
       </Section>
 
       <Section number="05" title="宏觀白話版">
-        <DataTable headers={["項目", "數字 / 來源口徑", "市場意思"]} rows={macroRows} />
+        <DataTable
+          headers={["項目", "數字 / 來源口徑", "市場意思"]}
+          rows={macroRows}
+        />
       </Section>
 
       <Section number="06" title="債息、美元、黃金、原油">
         <ul>
           <li>
-            <strong>美債：</strong>10Y 4.559%、2Y 4.153%、30Y 5.087%。曲線仍偏高，
-            對 Nasdaq valuation multiple 有壓力。
+            <strong>美債：</strong>10Y 4.559%、2Y 4.153%、30Y
+            5.087%。曲線仍偏高， 對 Nasdaq valuation multiple 有壓力。
           </li>
           <li>
-            <strong>美元：</strong>DXY 約 100.77，日內升 0.29%，但仍接近一個月低位；軟 CPI/PPI
+            <strong>美元：</strong>DXY 約 100.77，日內升
+            0.29%，但仍接近一個月低位；軟 CPI/PPI
             限制美元上升，中東油價風險又提供避險支持。
           </li>
           <li>
-            <strong>黃金：</strong>August gold 約 $3,992.10，跌 1.5%；美元反彈與實質利率壓力蓋過避險需求。
+            <strong>黃金：</strong>August gold 約 $3,992.10，跌
+            1.5%；美元反彈與實質利率壓力蓋過避險需求。
           </li>
           <li>
-            <strong>原油：</strong>WTI 約 $78.95，跌 0.8%；Brent 不同來源約 $84.2-$84.5。
-            油價仍是通脹風險的「反向按鈕」，但今日有獲利回吐。
+            <strong>原油：</strong>WTI 約 $78.95，跌 0.8%；Brent 不同來源約
+            $84.2-$84.5。 油價仍是通脹風險的「反向按鈕」，但今日有獲利回吐。
           </li>
         </ul>
       </Section>
@@ -489,10 +588,19 @@ export default function USCloseBrief20260716() {
       </Section>
 
       <Section number="08" title="Crypto：BTC / ETH / SOL">
-        <DataTable headers={["幣種", "Binance 20:00 UTC close", "對上一交易日 20:00 UTC", "解讀"]} rows={cryptoRows} />
+        <DataTable
+          headers={[
+            "幣種",
+            "Binance 20:00 UTC close",
+            "對上一交易日 20:00 UTC",
+            "解讀",
+          ]}
+          rows={cryptoRows}
+        />
         <p className="note">
-          Binance direct API 在本環境受地區限制；本報告使用 Binance Vision public data API
-          取得 1-minute kline。時間點為 2026-07-16 20:00 UTC，即美股 4:00pm ET 附近。
+          Binance direct API 在本環境受地區限制；本報告使用 Binance Vision
+          public data API 取得 1-minute kline。時間點為 2026-07-16 20:00
+          UTC，即美股 4:00pm ET 附近。
         </p>
       </Section>
 
@@ -510,14 +618,22 @@ export default function USCloseBrief20260716() {
 
       <Section number="11" title="操作提示">
         <div className="callout">
-          今日最重要不是「美股轉熊」，而是「市場開始分辨 AI spending winners 同 funding
-          risk」。如果你持有高 beta semis，要用 SOXX/SMH 是否止跌作為第一條風險線；如果你持有大盤，
-          留意 S&P 500 能否守 7,500。
+          今日最重要不是「美股轉熊」，而是「市場開始分辨 AI spending winners 同
+          funding risk」。如果你持有高 beta semis，要用 SOXX/SMH
+          是否止跌作為第一條風險線；如果你持有大盤， 留意 S&P 500 能否守 7,500。
         </div>
         <ul>
-          <li>短線不宜追沽防守股，因為輪動已經開始；更適合等回調後分批檢視估值。</li>
-          <li>AI 名字要看 earnings call 對 capex、gross margin、customer financing 的解釋。</li>
-          <li>若 10Y 升穿 4.65% 同 VIX 升穿 20 同時出現，才是更明顯降低風險倉位的訊號。</li>
+          <li>
+            短線不宜追沽防守股，因為輪動已經開始；更適合等回調後分批檢視估值。
+          </li>
+          <li>
+            AI 名字要看 earnings call 對 capex、gross margin、customer financing
+            的解釋。
+          </li>
+          <li>
+            若 10Y 升穿 4.65% 同 VIX 升穿 20
+            同時出現，才是更明顯降低風險倉位的訊號。
+          </li>
         </ul>
       </Section>
 

@@ -573,7 +573,8 @@ export default function USWeeklyBrief20260718() {
         <div className="eyebrow">美股周報懶人包</div>
         <h1>晶片退潮拖低大市，能源成為少數避風港</h1>
         <p className="subtitle">
-          本週不是全面崩盤，但係一個好清楚的「AI crowding reset」：指數由半導體領跌，
+          本週不是全面崩盤，但係一個好清楚的「AI crowding
+          reset」：指數由半導體領跌，
           資金轉去能源、房地產、價值與防守股。通脹數據降溫有幫手，偏偏油價急升又把
           Fed 與通脹風險拉返上枱。
         </p>
@@ -626,9 +627,9 @@ export default function USWeeklyBrief20260718() {
           />
           <p className="small">
             指數日變動採 AP、Reuters 及 CNBC 收市口徑交叉核對；週度板塊/風格採
-            Morningstar week ended July 17 口徑。AP 片段中 S&P 500
-            點位曾出現 7,475.69 與其他來源 7,457.69 差異；本文採 Reuters / CNBC
-            / Motley Fool 一致的 7,457.69。
+            Morningstar week ended July 17 口徑。AP 片段中 S&P 500 點位曾出現
+            7,475.69 與其他來源 7,457.69 差異；本文採 Reuters / CNBC / Motley
+            Fool 一致的 7,457.69。
           </p>
         </Card>
 
@@ -654,15 +655,16 @@ export default function USWeeklyBrief20260718() {
           />
           <div className="callout warn">
             Fund flows 的「週」截止日不同：ETF Action、Reuters/LSEG、ICI
-            口徑各有統計範圍與日期差異。本文把 price action、breadth、fund
-            flow 分開講，避免將不同資料硬合成一個結論。
+            口徑各有統計範圍與日期差異。本文把 price action、breadth、fund flow
+            分開講，避免將不同資料硬合成一個結論。
           </div>
         </Card>
 
         <Card title="7｜宏觀白話版" wide>
           <DataTable headers={["項目", "數據", "白話解讀"]} rows={macroRows} />
           <div className="callout">
-            白話講：CPI/PPI 是好消息，但油價是壞消息。市場現在不是怕經濟即刻衰退，
+            白話講：CPI/PPI
+            是好消息，但油價是壞消息。市場現在不是怕經濟即刻衰退，
             而是怕「通脹剛降、能源又推返上去」，令 Fed 更難轉鴿。
           </div>
         </Card>
@@ -707,22 +709,23 @@ export default function USWeeklyBrief20260718() {
           <ul>
             <li>
               <strong>短線：</strong>
-              不要急住撈所有半導體。若只是技術反彈但 SOX / Nasdaq
-              不 reclaim 關鍵位，反彈容易變成減倉位。
+              不要急住撈所有半導體。若只是技術反彈但 SOX / Nasdaq 不 reclaim
+              關鍵位，反彈容易變成減倉位。
             </li>
             <li>
               <strong>中線：</strong>
-              保留盈利質素與現金流可見度高的核心倉；能源可以作 hedge，但要接受 headline
-              risk，不應把戰爭 premium 當永久盈利增長。
+              保留盈利質素與現金流可見度高的核心倉；能源可以作 hedge，但要接受
+              headline risk，不應把戰爭 premium 當永久盈利增長。
             </li>
             <li>
-              <strong>風控：</strong>若 VIX 升穿 22、WTI 升穿 $85、S&P 500
-              失守 7,350，先減高 beta growth、槓桿 ETF、crypto beta；等波動回落再加。
+              <strong>風控：</strong>若 VIX 升穿 22、WTI 升穿 $85、S&P 500 失守
+              7,350，先減高 beta growth、槓桿 ETF、crypto beta；等波動回落再加。
             </li>
             <li>
               <strong>最終觀點：</strong>
-              今週是高估值科技的一次壓力測試。好消息是市場廣度未完全壞、value / energy
-              有承接；壞消息是 AI 領袖板塊已經進入「要用業績證明自己」階段。下週科技財報
+              今週是高估值科技的一次壓力測試。好消息是市場廣度未完全壞、value /
+              energy 有承接；壞消息是 AI
+              領袖板塊已經進入「要用業績證明自己」階段。下週科技財報
               會決定這次是健康輪動，還是 correction 的開端。
             </li>
           </ul>
@@ -744,16 +747,18 @@ export default function USWeeklyBrief20260718() {
             </li>
             <li>
               週度表現：大市與板塊/風格以 Morningstar week ended July 17
-              為主；Dow / Russell 等未列於 Morningstar 摘要的指標，按可核週五收市與
-              7/10 收市作近似週變動。
+              為主；Dow / Russell 等未列於 Morningstar
+              摘要的指標，按可核週五收市與 7/10 收市作近似週變動。
             </li>
             <li>
-              FedWatch：不同媒體對 September hike odds 報道差異較大，本文不硬列單一精確
-              機率，只標示「通脹降溫 vs 油價升」造成定價分歧。
+              FedWatch：不同媒體對 September hike odds
+              報道差異較大，本文不硬列單一精確 機率，只標示「通脹降溫 vs
+              油價升」造成定價分歧。
             </li>
             <li>
-              油價/黃金/DXY：油價採 Reuters/CNBC settlement；黃金與 DXY 採 Barchart
-              Friday close / settlement 口徑。不同平台的 spot、futures、盤中時間會有差異。
+              油價/黃金/DXY：油價採 Reuters/CNBC settlement；黃金與 DXY 採
+              Barchart Friday close / settlement 口徑。不同平台的
+              spot、futures、盤中時間會有差異。
             </li>
             <li>
               Fund flows：ETF Action、Reuters/LSEG、ICI 的統計範圍與週期不同；
@@ -761,7 +766,8 @@ export default function USWeeklyBrief20260718() {
             </li>
             <li>
               Crypto：Binance 直接 API 在環境中回 451；本文使用 Binance Vision
-              public data 取得 1m kline，時間固定在 20:00 UTC，對應美股 4:00pm ET 附近。
+              public data 取得 1m kline，時間固定在 20:00 UTC，對應美股 4:00pm
+              ET 附近。
             </li>
           </ul>
           <p>{disclaimer}</p>

@@ -29,14 +29,8 @@ const sources = [
     "Yahoo chart",
     "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?interval=1d",
   ],
-  [
-    "Michigan",
-    "https://www.sca.isr.umich.edu/?stream=top",
-  ],
-  [
-    "Fed G.17",
-    "https://www.federalreserve.gov/RELEASES/g17/Current/g17.txt",
-  ],
+  ["Michigan", "https://www.sca.isr.umich.edu/?stream=top"],
+  ["Fed G.17", "https://www.federalreserve.gov/RELEASES/g17/Current/g17.txt"],
   ["FedWatch", "https://www.investing.com/central-banks/fed-rate-monitor"],
   ["Binance Vision", "https://github.com/binance/binance-public-data"],
 ];

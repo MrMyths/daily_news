@@ -262,12 +262,7 @@ const cryptoRows = [
     "-1.87%",
     "ETH 對 high beta sentiment 較敏感，跌幅最大。",
   ],
-  [
-    "SOLUSDT",
-    "$75.07",
-    "-1.03%",
-    "SOL 跟隨 beta 回吐，仍守住 $75 附近。",
-  ],
+  ["SOLUSDT", "$75.07", "-1.03%", "SOL 跟隨 beta 回吐，仍守住 $75 附近。"],
 ];
 
 const technicalRows = [
@@ -499,8 +494,8 @@ export default function USCloseBrief20260717() {
             -0.77%，三大指數同日兼全周下跌。
           </li>
           <li>
-            核心壓力仍然係 <strong>AI / 半導體估值重估</strong>：Reuters
-            指 SOX 較 6月22日高位低 20.2%，正式跌入熊市技術區。
+            核心壓力仍然係 <strong>AI / 半導體估值重估</strong>：Reuters 指 SOX
+            較 6月22日高位低 20.2%，正式跌入熊市技術區。
           </li>
           <li>
             能源係唯一清晰亮點：WTI +4.48% 至 $82.49，Brent +4.59% 至
@@ -523,8 +518,8 @@ export default function USCloseBrief20260717() {
           rows={indexRows}
         />
         <p className="note">
-          CNBC、Reuters/CNA 與 Yahoo chart 對主要指數收市數字一致；Russell
-          2000 與 VIX 採 Yahoo chart close。
+          CNBC、Reuters/CNA 與 Yahoo chart 對主要指數收市數字一致；Russell 2000
+          與 VIX 採 Yahoo chart close。
         </p>
       </Section>
 
@@ -540,26 +535,26 @@ export default function USCloseBrief20260717() {
         <ul>
           <li>
             <strong>晶片沽壓由估值變技術破位：</strong>SOX
-            由六月高位跌逾兩成，市場由「獲利回吐」改為「要重新定價 AI
-            capex 回報」。
+            由六月高位跌逾兩成，市場由「獲利回吐」改為「要重新定價 AI capex
+            回報」。
           </li>
           <li>
-            <strong>週末前風險折讓：</strong>美伊衝突升級、油價急升，投資者不想在周末前持有太多
-            high beta growth。
+            <strong>週末前風險折讓：</strong>
+            美伊衝突升級、油價急升，投資者不想在周末前持有太多 high beta
+            growth。
           </li>
           <li>
-            <strong>Netflix 拖累通訊服務：</strong>收入略低預期、Q3 指引未打消增長放慢疑慮，NFLX
-            跌逾 7%，拖低 XLC。
+            <strong>Netflix 拖累通訊服務：</strong>收入略低預期、Q3
+            指引未打消增長放慢疑慮，NFLX 跌逾 7%，拖低 XLC。
           </li>
         </ul>
         <h3>有咩未算壞？</h3>
         <ul>
           <li>Russell 2000 只跌 0.42%，小型股未有跟住 Nasdaq 一齊急瀉。</li>
+          <li>能源股接力，油價相關板塊仍提供對沖；XOM、CVX、COP 全部上升。</li>
           <li>
-            能源股接力，油價相關板塊仍提供對沖；XOM、CVX、COP 全部上升。
-          </li>
-          <li>
-            Michigan sentiment 與 industrial production 顯示經濟未失速，問題主要是估值與通脹風險。
+            Michigan sentiment 與 industrial production
+            顯示經濟未失速，問題主要是估值與通脹風險。
           </li>
         </ul>
       </Section>
@@ -582,11 +577,12 @@ export default function USCloseBrief20260717() {
             上方，受避險與加息尾部風險支持，但全周仍非單邊強勢。
           </li>
           <li>
-            <strong>黃金：</strong>August gold settle 約 $4,018.80，日內升 0.7%，但全周跌約
-            3%；油價通脹與利率預期壓住避險買盤。
+            <strong>黃金：</strong>August gold settle 約 $4,018.80，日內升
+            0.7%，但全周跌約 3%；油價通脹與利率預期壓住避險買盤。
           </li>
           <li>
-            <strong>原油：</strong>WTI settle $82.49（+4.48%）、Brent $88.10（+4.59%）；油價成為今日最重要宏觀變數。
+            <strong>原油：</strong>WTI settle $82.49（+4.48%）、Brent
+            $88.10（+4.59%）；油價成為今日最重要宏觀變數。
           </li>
         </ul>
       </Section>
@@ -626,17 +622,16 @@ export default function USCloseBrief20260717() {
 
       <Section number="11" title="操作提示">
         <div className="callout">
-          今日重點不是「一日跌幅好大」，而是「SOX 跌入熊市 + 油價急升」同時出現。前者壓低
-          growth multiple，後者推高通脹與加息尾部風險；短線要先守住 S&P 500 7,450
-          同 VIX 20，才可以談反彈質素。
+          今日重點不是「一日跌幅好大」，而是「SOX 跌入熊市 +
+          油價急升」同時出現。前者壓低 growth
+          multiple，後者推高通脹與加息尾部風險；短線要先守住 S&P 500 7,450 同
+          VIX 20，才可以談反彈質素。
         </div>
         <ul>
           <li>
             不要急於接第一支 semis 反彈刀；等 SOXX/SMH 連續兩日企穩會更健康。
           </li>
-          <li>
-            若持有科技大倉，留意是否需要用能源/短久期資產分散宏觀風險。
-          </li>
+          <li>若持有科技大倉，留意是否需要用能源/短久期資產分散宏觀風險。</li>
           <li>
             下週 Tesla、Alphabet、Intel 財報前，高 beta 倉位宜控制集中度與槓桿。
           </li>

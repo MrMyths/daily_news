@@ -138,7 +138,8 @@ export default function USCloseBriefOnePage20260722() {
           。指數採 CNBC/Yahoo 收市；VIX 採 Investing.com historical close；Kitco
           文中 S&P 點數方向有筆誤，本文只用其金、油、10Y、Russell 參考。Yahoo
           chart API 本環境回 429，未能交叉核對的 ETF 精確值不硬填。Crypto 採
-          Binance Vision 2026-07-22 20:00 UTC 1m close，對比 2026-07-21 20:00 UTC。
+          Binance Vision 2026-07-22 20:00 UTC 1m close，對比 2026-07-21 20:00
+          UTC。
         </p>
         <p className="small">{disclaimer}</p>
       </section>

@@ -472,12 +472,12 @@ export default function USCloseBrief20260722() {
       <Section number="01" title="30秒重點">
         <ul>
           <li>
-            美股三大指數小跌：Dow -0.01%、S&P 500 -0.14%、Nasdaq
-            -0.57%；不是 panic sell，而是油價、債息和 Big Tech 財報前的降溫。
+            美股三大指數小跌：Dow -0.01%、S&P 500 -0.14%、Nasdaq -0.57%；不是
+            panic sell，而是油價、債息和 Big Tech 財報前的降溫。
           </li>
           <li>
-            原油係今日最大壓力：Brent 收 $94.07（約 +3.4%）、WTI 收
-            $86.83（約 +3%），中東/Hormuz 風險重新推高 inflation premium。
+            原油係今日最大壓力：Brent 收 $94.07（約 +3.4%）、WTI 收 $86.83（約
+            +3%），中東/Hormuz 風險重新推高 inflation premium。
           </li>
           <li>
             10Y 美債升至約 4.66%-4.67%，2Y 約 4.31%；Fed 7月加息機率不同來源報
@@ -488,8 +488,8 @@ export default function USCloseBrief20260722() {
             EPS miss；ServiceNow beat 並上調 outlook，IBM/TXN 反應分化。
           </li>
           <li>
-            VIX historical close 16.64（-2.40%），反映市場仍未恐慌；但 oil + rates
-            的組合會限制估值上行。
+            VIX historical close 16.64（-2.40%），反映市場仍未恐慌；但 oil +
+            rates 的組合會限制估值上行。
           </li>
           <li>
             Crypto（Binance 20:00 UTC）：BTC $65,916（-0.67%）、ETH
@@ -504,7 +504,8 @@ export default function USCloseBrief20260722() {
           rows={indexRows}
         />
         <p className="note">
-          CNBC/Yahoo 對三大指數方向一致；Kitco 文中 S&P 點數方向有筆誤，本文在來源口徑段落標明並採 CNBC/Yahoo。
+          CNBC/Yahoo 對三大指數方向一致；Kitco 文中 S&P
+          點數方向有筆誤，本文在來源口徑段落標明並採 CNBC/Yahoo。
         </p>
       </Section>
 
@@ -519,22 +520,31 @@ export default function USCloseBrief20260722() {
         <h3>點解今日跌？</h3>
         <ul>
           <li>
-            <strong>油價急升：</strong>CNBC 指 Brent 約 +3.4% 至 $94.07、WTI
-            約 +3% 至 $86.83，原因係美國第 11 晚打擊伊朗，加上 Hormuz shipping risk。
+            <strong>油價急升：</strong>CNBC 指 Brent 約 +3.4% 至 $94.07、WTI 約
+            +3% 至 $86.83，原因係美國第 11 晚打擊伊朗，加上 Hormuz shipping
+            risk。
           </li>
           <li>
-            <strong>債息抽高：</strong>10Y 到約 4.66%-4.67%，2Y 亦升；高油價令市場重新計通脹和 Fed 加息尾部風險。
+            <strong>債息抽高：</strong>10Y 到約 4.66%-4.67%，2Y
+            亦升；高油價令市場重新計通脹和 Fed 加息尾部風險。
           </li>
           <li>
-            <strong>Big Tech 財報前先收斂風險：</strong>Alphabet、Tesla、IBM、ServiceNow、TXN
-            同晚公布，Nasdaq 投資者唔想在 capex/AI spending 答案前過度追貨。
+            <strong>Big Tech 財報前先收斂風險：</strong>
+            Alphabet、Tesla、IBM、ServiceNow、TXN 同晚公布，Nasdaq 投資者唔想在
+            capex/AI spending 答案前過度追貨。
           </li>
         </ul>
         <h3>有咩支持未壞？</h3>
         <ul>
           <li>Dow 只跌 6 點、VIX 仍跌至 16.64，代表市場未見系統性避險。</li>
-          <li>能源、黃金、部分 server/AI infrastructure 個股仍有買盤，資金不是全面離場，而是輪動。</li>
-          <li>Alphabet、ServiceNow 等收入端仍 beat，企業 AI demand 未被證偽，只是市場更關心 capex 回報。</li>
+          <li>
+            能源、黃金、部分 server/AI infrastructure
+            個股仍有買盤，資金不是全面離場，而是輪動。
+          </li>
+          <li>
+            Alphabet、ServiceNow 等收入端仍 beat，企業 AI demand
+            未被證偽，只是市場更關心 capex 回報。
+          </li>
         </ul>
       </Section>
 
@@ -549,16 +559,20 @@ export default function USCloseBrief20260722() {
         <ul>
           <li>
             <strong>美債：</strong>Kitco 指 10Y 約 4.66%；Investopedia 指 10Y
-            intraday 接近 4.67%，為 5月19日以來最高附近；MarketScreener/Reuters 指 2Y 觸及 17 個月高位。
+            intraday 接近 4.67%，為 5月19日以來最高附近；MarketScreener/Reuters
+            指 2Y 觸及 17 個月高位。
           </li>
           <li>
-            <strong>美元：</strong>Kitco 指 DXY near 101.00，美元未大幅突破，但仍維持偏強區間。
+            <strong>美元：</strong>Kitco 指 DXY near
+            101.00，美元未大幅突破，但仍維持偏強區間。
           </li>
           <li>
-            <strong>黃金：</strong>Kitco PM 指 spot gold 約 $4,136.60（+1.47%），高債息下仍升，反映技術突破加避險需求。
+            <strong>黃金：</strong>Kitco PM 指 spot gold 約
+            $4,136.60（+1.47%），高債息下仍升，反映技術突破加避險需求。
           </li>
           <li>
-            <strong>原油：</strong>CNBC/Kitco 指 Brent $94.07、WTI $86.83；Brent 一度穿 $95，是超過一個月高位。
+            <strong>原油：</strong>CNBC/Kitco 指 Brent $94.07、WTI $86.83；Brent
+            一度穿 $95，是超過一個月高位。
           </li>
         </ul>
       </Section>
@@ -598,19 +612,23 @@ export default function USCloseBrief20260722() {
 
       <Section number="11" title="操作提示">
         <div className="callout">
-          今日不是大跌市，但係一個「宏觀壓力重新上枱」的信號。只要 Brent
-          留在 $94-$95、10Y 接近 4.70%，追 growth 要比昨日更有紀律；同時能源、黃金和真正能證明 AI demand
+          今日不是大跌市，但係一個「宏觀壓力重新上枱」的信號。只要 Brent 留在
+          $94-$95、10Y 接近 4.70%，追 growth
+          要比昨日更有紀律；同時能源、黃金和真正能證明 AI demand
           的公司會繼續有相對強勢。
         </div>
         <ul>
           <li>
-            短線倉：Nasdaq 未收復 25,850 前，避免在盤後財報波動中一次過加滿 beta。
+            短線倉：Nasdaq 未收復 25,850 前，避免在盤後財報波動中一次過加滿
+            beta。
           </li>
           <li>
-            中線倉：分清 revenue beat 與 free cash flow/capex 壓力；Alphabet/Tesla 的盤後反應正正反映市場開始問「AI 投入回報」。
+            中線倉：分清 revenue beat 與 free cash flow/capex
+            壓力；Alphabet/Tesla 的盤後反應正正反映市場開始問「AI 投入回報」。
           </li>
           <li>
-            風險管理：如果 Brent 企穩 $95 或 10Y 穿 4.70%，優先降低高估值、高槓桿、無盈利股份敞口。
+            風險管理：如果 Brent 企穩 $95 或 10Y 穿
+            4.70%，優先降低高估值、高槓桿、無盈利股份敞口。
           </li>
         </ul>
       </Section>

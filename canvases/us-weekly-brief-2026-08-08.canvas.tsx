@@ -549,8 +549,8 @@ export default function USWeeklyBrief20260808() {
         <div className="eyebrow">美股周報懶人包</div>
         <h1>非農轉弱救起高估值，科技與半導體重新領軍</h1>
         <p className="subtitle">
-          今週市場由「怕 Fed 繼續加息」變成「Fed 可能可以等一等」：
-          7 月非農意外減少，債息回落，S&P 500 收新高。資金重新買入 AI
+          今週市場由「怕 Fed 繼續加息」變成「Fed 可能可以等一等」： 7
+          月非農意外減少，債息回落，S&P 500 收新高。資金重新買入 AI
           infrastructure、software 與半導體，但下週 CPI 會決定呢個 risk-on
           係延伸，定只係一輪快速 short-cover。
         </p>
@@ -591,7 +591,8 @@ export default function USWeeklyBrief20260808() {
           </ul>
           <div className="callout">
             一句到尾：今週係「壞消息變好消息」的一週。非農轉弱令 Fed
-            加息壓力降溫，科技即刻重估；但如果下週 CPI 熱，呢個反彈會好快被重新審判。
+            加息壓力降溫，科技即刻重估；但如果下週 CPI
+            熱，呢個反彈會好快被重新審判。
           </div>
         </Card>
 
@@ -601,9 +602,9 @@ export default function USWeeklyBrief20260808() {
             rows={indexRows}
           />
           <p className="small">
-            指數日變動以 AP、Reuters / SRN 與 Yahoo Finance chart
-            交叉核對；Dow 有來源報 54,036.52，AP / Reuters / Yahoo
-            為 54,036.93，本文採較一致的 AP / Reuters / Yahoo 收市點位。
+            指數日變動以 AP、Reuters / SRN 與 Yahoo Finance chart 交叉核對；Dow
+            有來源報 54,036.52，AP / Reuters / Yahoo 為
+            54,036.93，本文採較一致的 AP / Reuters / Yahoo 收市點位。
           </p>
         </Card>
 
@@ -629,15 +630,16 @@ export default function USWeeklyBrief20260808() {
           />
           <div className="callout warn">
             Fund flows 的截止日與統計範圍不同：LSEG Lipper
-            是基金流向，Morningstar 是價格表現，Yahoo ETF
-            是可交易 ETF 收市價。本文分開標示，不將不同資料硬合成單一結論。
+            是基金流向，Morningstar 是價格表現，Yahoo ETF 是可交易 ETF
+            收市價。本文分開標示，不將不同資料硬合成單一結論。
           </div>
         </Card>
 
         <Card title="7｜宏觀白話版" wide>
           <DataTable headers={["項目", "數據", "白話解讀"]} rows={macroRows} />
           <div className="callout">
-            白話講：就業轉弱令 Fed 未必需要即刻加息，對科技股是甜蜜點；但如果就業繼續惡化，或 CPI
+            白話講：就業轉弱令 Fed
+            未必需要即刻加息，對科技股是甜蜜點；但如果就業繼續惡化，或 CPI
             再熱，市場會由「利率利好」切換去「增長/通脹兩頭不到岸」。
           </div>
         </Card>
@@ -687,18 +689,18 @@ export default function USWeeklyBrief20260808() {
             </li>
             <li>
               <strong>中線：</strong>
-              核心仍是 quality growth + AI infrastructure winners，但要分清「capex
-              有收入回報」與「只是在燒現金買故事」。
+              核心仍是 quality growth + AI infrastructure
+              winners，但要分清「capex 有收入回報」與「只是在燒現金買故事」。
             </li>
             <li>
-              <strong>風控：</strong>若 10Y 重上 4.70%、VIX 回到 17
-              以上、S&P 500 跌回 7,600、Nasdaq 跌穿 26,000，先減 high beta
-              semis、槓桿 ETF、SOL 類 crypto beta。
+              <strong>風控：</strong>若 10Y 重上 4.70%、VIX 回到 17 以上、S&P
+              500 跌回 7,600、Nasdaq 跌穿 26,000，先減 high beta semis、槓桿
+              ETF、SOL 類 crypto beta。
             </li>
             <li>
               <strong>最終觀點：</strong>
-              今週反彈質素比上週好，因為廣度、科技、細價股都有參與；但真正決定趨勢的是下週通脹。如果 CPI
-              配合，市場可以由 short-cover 變成新一輪上攻；如果 CPI
+              今週反彈質素比上週好，因為廣度、科技、細價股都有參與；但真正決定趨勢的是下週通脹。如果
+              CPI 配合，市場可以由 short-cover 變成新一輪上攻；如果 CPI
               不配合，Fed hike tail risk 會好快返嚟。
             </li>
           </ul>
@@ -715,21 +717,23 @@ export default function USWeeklyBrief20260808() {
           <ul>
             <li>
               指數：S&P 500 / Nasdaq / Russell 2000 / VIX 以 AP、Reuters / SRN
-              及 Yahoo chart 核對；Dow 有 54,036.52 與 54,036.93
-              小差異，本文採 AP / Reuters / Yahoo 一致的 54,036.93。
+              及 Yahoo chart 核對；Dow 有 54,036.52 與 54,036.93 小差異，本文採
+              AP / Reuters / Yahoo 一致的 54,036.93。
             </li>
             <li>
-              FedWatch：CNBC 報道 CME 9 月 hold odds 約 60%；Investing.com
-              8/7 17:55 EDT 顯示 hold 56.6%、25bp hike 43.4%；本文標示兩者差異，結論是加息預期明顯降溫但未消失。
+              FedWatch：CNBC 報道 CME 9 月 hold odds 約 60%；Investing.com 8/7
+              17:55 EDT 顯示 hold 56.6%、25bp hike
+              43.4%；本文標示兩者差異，結論是加息預期明顯降溫但未消失。
             </li>
             <li>
-              Oil：AP 市場稿提到 Brent 週五上升 1.3%，TT 早段報價與 Yahoo futures
-              close 顯示不同時點；本文把週五油價寫成口徑差異，核心採全週 WTI / Brent 約 -9%
-              的共同方向。
+              Oil：AP 市場稿提到 Brent 週五上升 1.3%，TT 早段報價與 Yahoo
+              futures close 顯示不同時點；本文把週五油價寫成口徑差異，核心採全週
+              WTI / Brent 約 -9% 的共同方向。
             </li>
             <li>
-              Gold：BullionVault / Kitco 類來源多用 spot gold（約 $4,340），Yahoo
-              chart 是 GC futures（$4,401.30）；本文同時標示 spot / futures，不把兩者混用。
+              Gold：BullionVault / Kitco 類來源多用 spot gold（約
+              $4,340），Yahoo chart 是 GC futures（$4,401.30）；本文同時標示
+              spot / futures，不把兩者混用。
             </li>
             <li>
               Fund flows：LSEG Lipper、ETF 與其他 flow

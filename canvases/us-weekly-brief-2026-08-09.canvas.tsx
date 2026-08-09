@@ -602,8 +602,8 @@ export default function USWeeklyBrief20260809() {
             rows={indexRows}
           />
           <p className="small">
-            指數日變動以 AP、Reuters / MarketScreener 與 Yahoo Finance chart 交叉核對；Dow
-            有來源報 54,036.52，AP / Reuters / Yahoo 為
+            指數日變動以 AP、Reuters / MarketScreener 與 Yahoo Finance chart
+            交叉核對；Dow 有來源報 54,036.52，AP / Reuters / Yahoo 為
             54,036.93，本文採較一致的 AP / Reuters / Yahoo 收市點位。
           </p>
         </Card>
@@ -716,9 +716,9 @@ export default function USWeeklyBrief20260809() {
           <h3>數據差異處理</h3>
           <ul>
             <li>
-              指數：S&P 500 / Nasdaq / Russell 2000 / VIX 以 AP、Reuters / MarketScreener
-              及 Yahoo chart 核對；Dow 有 54,036.52 與 54,036.93 小差異，本文採
-              AP / Reuters / Yahoo 一致的 54,036.93。
+              指數：S&P 500 / Nasdaq / Russell 2000 / VIX 以 AP、Reuters /
+              MarketScreener 及 Yahoo chart 核對；Dow 有 54,036.52 與 54,036.93
+              小差異，本文採 AP / Reuters / Yahoo 一致的 54,036.93。
             </li>
             <li>
               FedWatch：CNBC 報道 CME 9 月 hold odds 約 60%；Investing.com 8/7

@@ -22,11 +22,23 @@ const metrics = [
 ];
 
 const sources = [
-  ["AP", "https://apnews.com/article/stocks-markets-rates-iran-ai-adb7b918b15206e38d7899d482422308"],
-  ["Reuters/Business Times", "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/us-stocks-wall-street-ends-down-expectations-hormuz-deal-fade"],
-  ["CNBC yields/oil", "https://www.cnbc.com/2026/08/10/us-treasury-yields-investors-eye-key-inflation-data-.html"],
+  [
+    "AP",
+    "https://apnews.com/article/stocks-markets-rates-iran-ai-adb7b918b15206e38d7899d482422308",
+  ],
+  [
+    "Reuters/Business Times",
+    "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/us-stocks-wall-street-ends-down-expectations-hormuz-deal-fade",
+  ],
+  [
+    "CNBC yields/oil",
+    "https://www.cnbc.com/2026/08/10/us-treasury-yields-investors-eye-key-inflation-data-.html",
+  ],
   ["BLS CPI schedule", "https://www.bls.gov/schedule/news_release/cpi.htm"],
-  ["Exa market quotes", "https://exa.ai/library/markets/stock/XLE?date=2026-08-10"],
+  [
+    "Exa market quotes",
+    "https://exa.ai/library/markets/stock/XLE?date=2026-08-10",
+  ],
   ["Binance Vision", "https://github.com/binance/binance-public-data"],
 ];
 
@@ -96,8 +108,12 @@ export default function USCloseBriefOnePage20260810() {
           <h2 style={{ marginTop: 15 }}>操作重點</h2>
           <ul>
             <li>SPX 7,750 / 7,700、Nasdaq 26,500 / 26,300 是短線防線。</li>
-            <li>10Y 若企 4.70%-4.80%，高估值 tech、REITs、utilities 繼續受壓。</li>
-            <li>8/12 CPI 前不宜盲目追高；能源可跑贏但 headline reversal 風險高。</li>
+            <li>
+              10Y 若企 4.70%-4.80%，高估值 tech、REITs、utilities 繼續受壓。
+            </li>
+            <li>
+              8/12 CPI 前不宜盲目追高；能源可跑贏但 headline reversal 風險高。
+            </li>
           </ul>
         </div>
       </section>
@@ -111,7 +127,9 @@ export default function USCloseBriefOnePage20260810() {
               <a href={url}>{name}</a>
             </React.Fragment>
           ))}
-          。指數採 AP/Reuters 收市口徑；ETF/個股採 Exa market quote page；債息與油價採 CNBC；Crypto 採 Binance Vision public data 2026-08-10 20:00 UTC 1m close。
+          。指數採 AP/Reuters 收市口徑；ETF/個股採 Exa market quote
+          page；債息與油價採 CNBC；Crypto 採 Binance Vision public data
+          2026-08-10 20:00 UTC 1m close。
         </p>
         <p className="small">{disclaimer}</p>
       </section>

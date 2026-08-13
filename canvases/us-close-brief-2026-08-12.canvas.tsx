@@ -419,8 +419,8 @@ export default function USCloseBrief20260812() {
       <section className="hero">
         <h1>美股收盤懶人包｜完整版</h1>
         <div className="sub">
-          {reportDate}{" "}
-          收市｜CPI 符合預期、AI infrastructure 反彈，S&P/Nasdaq 靠近高位
+          {reportDate} 收市｜CPI 符合預期、AI infrastructure 反彈，S&P/Nasdaq
+          靠近高位
         </div>
         <div className="meta">
           <Badge tone="blue">{publishedAt}</Badge>
@@ -459,7 +459,9 @@ export default function USCloseBrief20260812() {
         <div className="stat">
           <div className="label">操作語氣</div>
           <div className="value amberText">追強不追弱</div>
-          <p className="note">AI hardware 強，但 platform/消費/材料未同步確認。</p>
+          <p className="note">
+            AI hardware 強，但 platform/消費/材料未同步確認。
+          </p>
         </div>
       </section>
 
@@ -494,23 +496,23 @@ export default function USCloseBrief20260812() {
             <h3>2）AI infrastructure 用業績證明需求</h3>
             <p>
               AP/Reuters 指 CoreWeave、Super Micro 等業績/forecast
-              好過預期，CoreWeave backlog 升至 $104.2B。市場重新相信 AI
-              capex 不是得 narrative，所以 Nvidia、SOXX、AMAT 都反彈。
+              好過預期，CoreWeave backlog 升至 $104.2B。市場重新相信 AI capex
+              不是得 narrative，所以 Nvidia、SOXX、AMAT 都反彈。
             </p>
           </div>
           <div>
             <h3>3）債息有支持但未全面回落</h3>
             <p>
               CNBC 報 2Y 跌至 4.203%，10Y 約 4.69%，30Y 升至 5.254%。這是
-              "front-end relief, long-end still sticky"，所以科技可以彈，但房屋股仍弱。
+              "front-end relief, long-end still
+              sticky"，所以科技可以彈，但房屋股仍弱。
             </p>
           </div>
           <div>
             <h3>4）油價無再急升，風險 premium 暫停加碼</h3>
             <p>
-              Reuters 指 WTI/Brent 只各升 7 美仙，Hormuz
-              風險仍在，但 OPEC/IEA 需求展望下調限制油價。市場因此有空間買返 AI
-              beta。
+              Reuters 指 WTI/Brent 只各升 7 美仙，Hormuz 風險仍在，但 OPEC/IEA
+              需求展望下調限制油價。市場因此有空間買返 AI beta。
             </p>
           </div>
         </div>
@@ -549,9 +551,7 @@ export default function USCloseBrief20260812() {
           <li>
             CNBC 引 BMO 指 9 月決定仍要看 August payrolls 與下一份 CPI 組合。
           </li>
-          <li>
-            PPI 於 8/13 公布，若 PPI 熱，今日的利率 relief 會被重新測試。
-          </li>
+          <li>PPI 於 8/13 公布，若 PPI 熱，今日的利率 relief 會被重新測試。</li>
         </ul>
       </section>
 
@@ -596,8 +596,8 @@ export default function USCloseBrief20260812() {
           ))}
         </ul>
         <p className="note">
-          VIX 跌至 14.55，代表 short-vol / dip-buying
-          心態回來；但升市集中在 AI hardware，若 SOXX 轉弱，S&P 高位突破會失去引擎。
+          VIX 跌至 14.55，代表 short-vol / dip-buying 心態回來；但升市集中在 AI
+          hardware，若 SOXX 轉弱，S&P 高位突破會失去引擎。
         </p>
       </section>
 
@@ -616,27 +616,31 @@ export default function USCloseBrief20260812() {
           <div>
             <h3>短線</h3>
             <ul>
-              <li>若只做 momentum，今日最順是 SOXX/AI infrastructure，不是整個科技板塊。</li>
               <li>
-                SPX 未突破前，追高要看 10Y 能否守在 4.70% 下方；一旦債息再上，估值壓力會返來。
+                若只做 momentum，今日最順是 SOXX/AI
+                infrastructure，不是整個科技板塊。
               </li>
               <li>
-                Crypto 無跟升，短炒風險偏好不要用 BTC 作美股突破確認。
+                SPX 未突破前，追高要看 10Y 能否守在 4.70%
+                下方；一旦債息再上，估值壓力會返來。
               </li>
+              <li>Crypto 無跟升，短炒風險偏好不要用 BTC 作美股突破確認。</li>
             </ul>
           </div>
           <div>
             <h3>中線</h3>
             <ul>
               <li>
-                AI capex trade 仍要看 Nvidia 8/26 業績與 financing / backlog commentary。
+                AI capex trade 仍要看 Nvidia 8/26 業績與 financing / backlog
+                commentary。
               </li>
               <li>
-                Fed pause trade 要過 PPI、August payrolls、下一份 CPI 三關；一份 inline CPI
-                未足以改變整條政策路徑。
+                Fed pause trade 要過 PPI、August payrolls、下一份 CPI 三關；一份
+                inline CPI 未足以改變整條政策路徑。
               </li>
               <li>
-                長端收益率仍高，房屋、REITs、長久期 growth 不宜用單日反彈過度 extrapolate。
+                長端收益率仍高，房屋、REITs、長久期 growth 不宜用單日反彈過度
+                extrapolate。
               </li>
             </ul>
           </div>
@@ -649,9 +653,10 @@ export default function USCloseBrief20260812() {
         </h2>
         <p>
           今日市場給出的訊息幾清楚：通脹沒有超預期，AI infrastructure
-          公司又交到功課，所以 S&P 500/Nasdaq 可以靠近高位；但這不是全面牛市擴散，因為
-          Dow 微跌、XLY/XLC/XLB 轉弱、crypto 無跟升，長端債息亦仍高。策略上可以順勢留意
-          AI hardware 強勢，但不宜將一日 CPI relief 解讀成 Fed 已經完全轉鴿。
+          公司又交到功課，所以 S&P 500/Nasdaq
+          可以靠近高位；但這不是全面牛市擴散，因為 Dow 微跌、XLY/XLC/XLB
+          轉弱、crypto 無跟升，長端債息亦仍高。策略上可以順勢留意 AI hardware
+          強勢，但不宜將一日 CPI relief 解讀成 Fed 已經完全轉鴿。
         </p>
         <div className="sourceList">
           {sources.map((source) => (
@@ -662,9 +667,9 @@ export default function USCloseBrief20260812() {
         </div>
         <p className="note">
           若關鍵數據衝突：指數採 AP/CNBC 收市口徑；ETF/個股採 Yahoo Finance
-          chart data；FedWatch 採 AP 約 40% 並列其他 CME FedWatch
-          轉述約 45% 的時間差；黃金採 Kitco late-afternoon spot 口徑；Crypto 採
-          Binance Vision 20:00 UTC 1m close。
+          chart data；FedWatch 採 AP 約 40% 並列其他 CME FedWatch 轉述約 45%
+          的時間差；黃金採 Kitco late-afternoon spot 口徑；Crypto 採 Binance
+          Vision 20:00 UTC 1m close。
         </p>
         <p className="note">{disclaimer}</p>
       </section>

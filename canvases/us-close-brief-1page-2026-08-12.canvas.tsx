@@ -124,9 +124,9 @@ export default function USCloseBriefOnePage20260812() {
             </React.Fragment>
           ))}
           。指數採 AP/CNBC 收市口徑；ETF/個股採 Yahoo Finance chart
-          data；FedWatch 採 AP 約 40% 並列其他 CME FedWatch
-          轉述約 45% 的時間差；Crypto 採 Binance Vision public data 2026-08-12
-          20:00 UTC 1m close。
+          data；FedWatch 採 AP 約 40% 並列其他 CME FedWatch 轉述約 45%
+          的時間差；Crypto 採 Binance Vision public data 2026-08-12 20:00 UTC 1m
+          close。
         </p>
         <p className="small">{disclaimer}</p>
       </section>

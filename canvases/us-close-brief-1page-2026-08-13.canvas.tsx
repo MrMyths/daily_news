@@ -108,8 +108,14 @@ export default function USCloseBriefOnePage20260813() {
           <h2 style={{ marginTop: 13 }}>操作重點</h2>
           <ul>
             <li>SPX 已近 7,800；突破要看能否守住 7,760-7,775 回踩區。</li>
-            <li>今日 strongest 是 XLC/XLRE/XLP/XLK；半導體綠但 AMAT/CSCO 提醒分化。</li>
-            <li>Fed hold trade 暫時佔優，但 8/14 retail sales 與 Michigan sentiment 要跟。</li>
+            <li>
+              今日 strongest 是 XLC/XLRE/XLP/XLK；半導體綠但 AMAT/CSCO
+              提醒分化。
+            </li>
+            <li>
+              Fed hold trade 暫時佔優，但 8/14 retail sales 與 Michigan
+              sentiment 要跟。
+            </li>
           </ul>
         </div>
       </section>
@@ -124,8 +130,8 @@ export default function USCloseBriefOnePage20260813() {
             </React.Fragment>
           ))}
           。指數採 CNBC/Reuters 收市口徑；ETF/個股採 Yahoo Finance chart data；
-          FedWatch 因來源時間差以約 65%-68% hold / 約 31%-35% hike 描述；Crypto 採
-          Binance Vision public data 2026-08-13 20:00 UTC 1m close。
+          FedWatch 因來源時間差以約 65%-68% hold / 約 31%-35% hike 描述；Crypto
+          採 Binance Vision public data 2026-08-13 20:00 UTC 1m close。
         </p>
         <p className="small">{disclaimer}</p>
       </section>

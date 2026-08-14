@@ -322,11 +322,7 @@ const eventRows = [
     "下一份 PPI",
     "BLS 預告 8 月 PPI 於 9/10 公布，會直接影響 9 月 FOMC 前的通脹判斷。",
   ],
-  [
-    "9/15-16",
-    "FOMC",
-    "市場現時偏向 hold，但 31%-35% 加息機率仍未低到可忽略。",
-  ],
+  ["9/15-16", "FOMC", "市場現時偏向 hold，但 31%-35% 加息機率仍未低到可忽略。"],
 ];
 
 function Badge({
@@ -566,13 +562,25 @@ export default function USCloseBrief20260813() {
           Reuters/MarketScreener 報 traders pricing 約 65% 機率 9 月按兵不動；
           其他 FedWatch 轉述約 67.6% hold、約 32% hike；CNBC/Reuters
           美元稿則在不同時間報約 31%-35% hike。結論：
-          <strong>市場短線偏向 Fed hold，但通脹仍高，下一份就業和通脹數據仍可改變劇本。</strong>
+          <strong>
+            市場短線偏向 Fed
+            hold，但通脹仍高，下一份就業和通脹數據仍可改變劇本。
+          </strong>
         </p>
         <ul>
-          <li>BLS 官方：final demand PPI 年率 +4.7%，仍明顯高於 Fed 2% 目標。</li>
-          <li>Core PPI 年率 +4.2%，雖然放慢，但服務價格 +0.2% 仍要看 PCE 傳導。</li>
-          <li>Initial claims 209,000，勞工市場未崩，但邊際上支持「先等一等」。</li>
-          <li>8/14 retail sales 與 University of Michigan sentiment 是下一個宏觀檢查點。</li>
+          <li>
+            BLS 官方：final demand PPI 年率 +4.7%，仍明顯高於 Fed 2% 目標。
+          </li>
+          <li>
+            Core PPI 年率 +4.2%，雖然放慢，但服務價格 +0.2% 仍要看 PCE 傳導。
+          </li>
+          <li>
+            Initial claims 209,000，勞工市場未崩，但邊際上支持「先等一等」。
+          </li>
+          <li>
+            8/14 retail sales 與 University of Michigan sentiment
+            是下一個宏觀檢查點。
+          </li>
         </ul>
       </section>
 
@@ -642,8 +650,8 @@ export default function USCloseBrief20260813() {
                 有承接。
               </li>
               <li>
-                今日相對強的是 XLC、XLRE、XLP、XLK；半導體仍綠但內部分化，追 SOXX
-                要看 AMAT 後續反應。
+                今日相對強的是 XLC、XLRE、XLP、XLK；半導體仍綠但內部分化，追
+                SOXX 要看 AMAT 後續反應。
               </li>
               <li>
                 CSCO、AMAT、TPR、YETI 提醒：earnings season 仍是 beat-and-raise
@@ -659,7 +667,8 @@ export default function USCloseBrief20260813() {
                 expectations、8 月 payrolls、下一份 CPI/PPI 一齊確認。
               </li>
               <li>
-                油價回落是今日好消息；若 WTI 重上 $85，通脹和 Fed narrative 會再變緊。
+                油價回落是今日好消息；若 WTI 重上 $85，通脹和 Fed narrative
+                會再變緊。
               </li>
               <li>
                 Crypto 未跟美股創高突破，暫時不宜把 BTC/ETH/SOL 當作 risk-on
@@ -675,10 +684,11 @@ export default function USCloseBrief20260813() {
           <span className="sectionNo">12</span>最終觀點、來源與免責聲明
         </h2>
         <p>
-          今日市場訊息偏正面：PPI 低過預期、債息回落、油價跌，三樣一齊令 S&P
-          500 有條件創收市新高。不過，這仍不是「所有風險資產一齊爆」的市況：
-          VIX 微升、Russell 只是小升、半導體內部分化、crypto 只窄幅上落。操作上可以承認
-          突破動能，但要用債息、油價、SOXX/XLC breadth 和下一批宏觀數據做確認。
+          今日市場訊息偏正面：PPI 低過預期、債息回落、油價跌，三樣一齊令 S&P 500
+          有條件創收市新高。不過，這仍不是「所有風險資產一齊爆」的市況： VIX
+          微升、Russell 只是小升、半導體內部分化、crypto
+          只窄幅上落。操作上可以承認 突破動能，但要用債息、油價、SOXX/XLC
+          breadth 和下一批宏觀數據做確認。
         </p>
         <div className="sourceList">
           {sources.map((source) => (
@@ -689,8 +699,9 @@ export default function USCloseBrief20260813() {
         </div>
         <p className="note">
           若關鍵數據衝突：指數採 CNBC/Reuters 收市口徑；ETF/個股採 Yahoo Finance
-          chart data；FedWatch 採 Reuters/CNBC/其他 CME FedWatch 轉述並標示時間差；
-          DXY 與黃金因來源截取時間不同以區間和口徑描述；Crypto 採 Binance Vision
+          chart data；FedWatch 採 Reuters/CNBC/其他 CME FedWatch
+          轉述並標示時間差； DXY
+          與黃金因來源截取時間不同以區間和口徑描述；Crypto 採 Binance Vision
           20:00 UTC 1m close。
         </p>
         <p className="note">{disclaimer}</p>

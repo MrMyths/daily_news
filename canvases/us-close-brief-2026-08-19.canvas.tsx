@@ -511,15 +511,17 @@ export default function USCloseBrief20260819() {
             <h3>1）Treasury buyback 加碼，長端債息即時降溫</h3>
             <p>
               Treasury 宣布未來數月把長端 government debt repurchase 上限由 $2B
-              加至至少 $4B，集中 10Y 至 30Y 區段。市場理解為官方想穩住長債流動性，
-              10Y/30Y 回落後，股票估值壓力即時減輕。
+              加至至少 $4B，集中 10Y 至 30Y
+              區段。市場理解為官方想穩住長債流動性， 10Y/30Y
+              回落後，股票估值壓力即時減輕。
             </p>
           </div>
           <div>
             <h3>2）但 FOMC minutes 令升幅收窄</h3>
             <p>
-              July minutes 顯示 many participants 認為若通脹不降，進一步 tightening
-              likely necessary；所以今日不是一面倒追貨，而是先升後消化 Fed
+              July minutes 顯示 many participants 認為若通脹不降，進一步
+              tightening likely
+              necessary；所以今日不是一面倒追貨，而是先升後消化 Fed
               仍未關上加息門。
             </p>
           </div>
@@ -534,8 +536,8 @@ export default function USCloseBrief20260819() {
           <div>
             <h3>4）半導體仍然係弱環</h3>
             <p>
-              即使債息跌，SOXX 仍跌 2.21%，AMD、Broadcom、Intel
-              跌約 4%。資金仍在審視 AI capex 回報、OpenAI 增長/虧損消息及 Nvidia
+              即使債息跌，SOXX 仍跌 2.21%，AMD、Broadcom、Intel 跌約
+              4%。資金仍在審視 AI capex 回報、OpenAI 增長/虧損消息及 Nvidia
               業績前的 crowded positioning。
             </p>
           </div>
@@ -569,9 +571,9 @@ export default function USCloseBrief20260819() {
         </h2>
         <p>
           今日表面是 Treasury buyback relief rally，但 Fed minutes
-          其實偏鷹：委員會 9-3 hold，三位官員已經想加 25bp，minutes
-          入面亦提到若 inflation 不下降，很多參與者認為需要再 tightening。
-          所以市場短線可以因 30Y yield 由 5.28% 附近回到約 5.19% 而反彈，
+          其實偏鷹：委員會 9-3 hold，三位官員已經想加 25bp，minutes 入面亦提到若
+          inflation 不下降，很多參與者認為需要再 tightening。 所以市場短線可以因
+          30Y yield 由 5.28% 附近回到約 5.19% 而反彈，
           但中線仍要睇油價、通脹預期同下一批就業/PMI 數據。
         </p>
         <ul>
@@ -659,7 +661,8 @@ export default function USCloseBrief20260819() {
                 SOXX 未企回 $531 前，AI hardware 反彈都要用較小倉位或等確認。
               </li>
               <li>
-                XLV 今日很強，但 MRNA 是事件驅動型爆升，不宜直接外推成整個醫療板塊長線重估。
+                XLV 今日很強，但 MRNA
+                是事件驅動型爆升，不宜直接外推成整個醫療板塊長線重估。
               </li>
             </ul>
           </div>
@@ -667,14 +670,16 @@ export default function USCloseBrief20260819() {
             <h3>中線</h3>
             <ul>
               <li>
-                Treasury buyback 若能壓住 30Y，growth multiple 有喘息；若只是一天反應，
-                下次 yield 再抽會令反彈失真。
+                Treasury buyback 若能壓住 30Y，growth multiple
+                有喘息；若只是一天反應， 下次 yield 再抽會令反彈失真。
               </li>
               <li>
-                Fed minutes 顯示 committee 對通脹仍不放心；油價是 9 月前最大宏觀變數。
+                Fed minutes 顯示 committee 對通脹仍不放心；油價是 9
+                月前最大宏觀變數。
               </li>
               <li>
-                Nvidia 8/26 業績是 AI trade 的真正壓力測試，現階段宜把半導體當成高波動核心觀察名單。
+                Nvidia 8/26 業績是 AI trade
+                的真正壓力測試，現階段宜把半導體當成高波動核心觀察名單。
               </li>
             </ul>
           </div>
@@ -687,10 +692,10 @@ export default function USCloseBrief20260819() {
         </h2>
         <p>
           今日升市質素比前幾日好，因為不是靠單一 mega-cap 撐場，而是 Treasury
-          長端 buyback 帶動債息回落，並有醫療、消費、材料等板塊參與。不過，
-          FOMC minutes 偏鷹、油價近四週高、SOXX 繼續失血，說明市場只是從
-          yield scare 入面喘一口氣，未到全面解除警報。最健康劇本是 10Y/30Y
-          繼續降溫、SOXX 止跌、SPX 守住 7,700；相反，若 Fed speakers
+          長端 buyback 帶動債息回落，並有醫療、消費、材料等板塊參與。不過， FOMC
+          minutes 偏鷹、油價近四週高、SOXX 繼續失血，說明市場只是從 yield scare
+          入面喘一口氣，未到全面解除警報。最健康劇本是 10Y/30Y 繼續降溫、SOXX
+          止跌、SPX 守住 7,700；相反，若 Fed speakers
           再偏鷹或油價再上，今日反彈可能只係技術性修復。
         </p>
         <div className="sourceList">
@@ -701,11 +706,11 @@ export default function USCloseBrief20260819() {
           ))}
         </div>
         <p className="note">
-          若關鍵數據衝突：指數採 CNBC/Sharecast 收市口徑並以 Yahoo chart
-          data 交叉；ETF/個股採 Yahoo chart close；Treasury 採 CNBC
-          即時口徑並交叉 Fed H.15/Treasury 官方頁；Gold/Oil
-          採 Reuters 期貨/現貨報道並註明時間；FedWatch 採 Investing/CME
-          轉述時間；Crypto 採 Binance Vision 20:00 UTC 1m close。
+          若關鍵數據衝突：指數採 CNBC/Sharecast 收市口徑並以 Yahoo chart data
+          交叉；ETF/個股採 Yahoo chart close；Treasury 採 CNBC 即時口徑並交叉
+          Fed H.15/Treasury 官方頁；Gold/Oil 採 Reuters
+          期貨/現貨報道並註明時間；FedWatch 採 Investing/CME 轉述時間；Crypto 採
+          Binance Vision 20:00 UTC 1m close。
         </p>
         <p className="note">{disclaimer}</p>
       </section>

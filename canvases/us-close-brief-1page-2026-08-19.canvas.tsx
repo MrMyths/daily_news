@@ -42,7 +42,10 @@ const sources = [
     "Reuters oil/gold",
     "https://www.marketscreener.com/news/oil-extends-climb-on-prolonged-hormuz-export-uncertainty-ce7859ddde80f72d",
   ],
-  ["Investing FedWatch", "https://www.investing.com/central-banks/fed-rate-monitor"],
+  [
+    "Investing FedWatch",
+    "https://www.investing.com/central-banks/fed-rate-monitor",
+  ],
   ["Binance Vision", "https://github.com/binance/binance-public-data"],
 ];
 
@@ -113,7 +116,9 @@ export default function USCloseBriefOnePage20260819() {
           <ul>
             <li>SPX 要守 7,675-7,700，才算三日跌勢完成短線止血。</li>
             <li>SOXX 未企回 $531 前，AI hardware 反彈質素仍要打折。</li>
-            <li>油價仍近四週高，Fed minutes 偏鷹；不要把一日反彈當全面解除警報。</li>
+            <li>
+              油價仍近四週高，Fed minutes 偏鷹；不要把一日反彈當全面解除警報。
+            </li>
           </ul>
         </div>
       </section>
@@ -127,11 +132,10 @@ export default function USCloseBriefOnePage20260819() {
               <a href={url}>{name}</a>
             </React.Fragment>
           ))}
-          。指數採 CNBC/Sharecast 收市口徑並以 Yahoo chart data
-          交叉；ETF/個股採 Yahoo chart close；Treasury 採 CNBC 並交叉
-          Fed H.15/Treasury；FedWatch 採 Investing/CME 8/19 20:45 EDT
-          口徑；Crypto 採 Binance Vision public data 2026-08-19 20:00 UTC 1m
-          close。
+          。指數採 CNBC/Sharecast 收市口徑並以 Yahoo chart data 交叉；ETF/個股採
+          Yahoo chart close；Treasury 採 CNBC 並交叉 Fed H.15/Treasury；FedWatch
+          採 Investing/CME 8/19 20:45 EDT 口徑；Crypto 採 Binance Vision public
+          data 2026-08-19 20:00 UTC 1m close。
         </p>
         <p className="small">{disclaimer}</p>
       </section>
